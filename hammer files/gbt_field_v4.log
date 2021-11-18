@@ -1,0 +1,838 @@
+
+
+
+materialPath: c:\program files\steam\steamapps\lucascesar\half-life 2 episode two\ep2\materials
+Loading D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-552.0 412.5 29.7)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 89430: Brush 89343: Brush 89313: Brush 89337: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2026 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+Displacement 32 has bad geometry near 9581.19 9079.56 -1300.32
+Can't compile displacement physics, exiting.  Texture is GM_CONSTRUCT/GRASS
+
+
+
+2 threads
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+Error opening d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+Error opening d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+
+
+materialPath: c:\program files\steam\steamapps\lucascesar\half-life 2 episode two\ep2\materials
+Loading D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-552.0 412.5 29.7)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 89430: Brush 89343: Brush 89313: Brush 89337: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+Displacement 32 has bad geometry near 9886.84 9079.56 -1327.25
+Can't compile displacement physics, exiting.  Texture is GM_CONSTRUCT/GRASS
+
+
+
+2 threads
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+Error opening d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+Error opening d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+
+
+materialPath: c:\program files\steam\steamapps\lucascesar\half-life 2 episode two\ep2\materials
+Loading D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-552.0 412.5 29.7)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 89430: Brush 89343: Brush 89313: Brush 89337: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+Displacement 32 has bad geometry near 9886.84 9079.56 -1327.54
+Can't compile displacement physics, exiting.  Texture is GM_CONSTRUCT/GRASS
+
+
+
+2 threads
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+Error opening d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+Error opening d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+
+
+materialPath: c:\program files\steam\steamapps\lucascesar\half-life 2 episode two\ep2\materials
+Loading D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-552.0 412.5 29.7)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 89430: Brush 89343: Brush 89313: Brush 89337: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+Displacement 32 has bad geometry near 9886.84 9079.56 -1327.54
+Can't compile displacement physics, exiting.  Texture is GM_CONSTRUCT/GRASS
+
+
+
+2 threads
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+Error opening d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+Error opening d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+
+
+materialPath: c:\program files\steam\steamapps\lucascesar\half-life 2 episode two\ep2\materials
+Loading D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (-552.0 412.5 29.7)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: Brush 89337: Brush 89313: Brush 89343: Brush 89430: 
+
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+Displacement 32 has bad geometry near 9886.84 9079.56 -1327.54
+Can't compile displacement physics, exiting.  Texture is GM_CONSTRUCT/GRASS
+
+
+
+2 threads
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+Error opening d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+Error opening d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+
+
+materialPath: c:\program files\steam\steamapps\lucascesar\half-life 2 episode two\ep2\materials
+Loading D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+Displacement 32 has bad geometry near 9886.84 9079.56 -1327.54
+Can't compile displacement physics, exiting.  Texture is GM_CONSTRUCT/GRASS
+
+
+
+2 threads
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+Error opening d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+Error opening d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+
+
+materialPath: c:\program files\steam\steamapps\lucascesar\half-life 2 episode two\ep2\materials
+Loading D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2102 detail faces...done (0)
+Merging details...done (1)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Found a displacement edge abutting multiple other edges.
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+Displacement 58 has bad geometry near 9886.84 9079.56 -1327.87
+Can't compile displacement physics, exiting.  Texture is GM_CONSTRUCT/GRASS
+
+
+
+2 threads
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+Error opening d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+Error opening d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+
+
+materialPath: c:\program files\steam\steamapps\lucascesar\half-life 2 episode two\ep2\materials
+Loading D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (3) (883527 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3170 texinfos to 1473
+Reduced 239 texdatas to 190 (10600 bytes to 8562)
+Writing D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+15 seconds elapsed
+
+
+
+2 threads
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.prt
+2685 portalclusters
+8659 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 266121 visible clusters (0.00%)
+Total clusters visible: 4742956
+Average clusters visible: 1766
+Building PAS...
+Average clusters audible: 2097
+visdatasize:1595208  compressed from 1804320
+writing d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+12 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\lucascesar\half-life 2 episode two\ep2\materials
+Loading D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (4) (883527 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3177 texinfos to 1473
+Reduced 239 texdatas to 190 (10600 bytes to 8562)
+Writing D:\Leo\Games\Steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+17 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\lucascesar\half-life 2 episode two\ep2\materials
+Loading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (1)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.prt...Building visibility clusters...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (3) (883527 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3177 texinfos to 1473
+Reduced 239 texdatas to 190 (10600 bytes to 8562)
+Writing d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+14 seconds elapsed
+
+
+
+2 threads
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.prt
+2669 portalclusters
+8584 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4
+
+
+materialPath: c:\program files\steam\steamapps\lucascesar\half-life 2 episode two\ep2\materials
+Loading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (6) (883527 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3177 texinfos to 1473
+Reduced 239 texdatas to 190 (10600 bytes to 8562)
+Writing d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+23 seconds elapsed
+..
+
+
+materialPath: c:\program files\steam\steamapps\lucascesar\half-life 2 episode two\ep2\materials
+Loading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.prt...Building visibility clusters...
+done (1)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (3) (883527 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3177 texinfos to 1473
+Reduced 239 texdatas to 190 (10600 bytes to 8562)
+Writing d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+14 seconds elapsed
+
+
+
+2 threads
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.prt
+2669 portalclusters
+8584 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...
+
+
+materialPath: c:\program files\steam\steamapps\lucascesar\half-life 2 episode two\ep2\materials
+Loading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (3) (883527 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3177 texinfos to 1473
+Reduced 239 texdatas to 190 (10600 bytes to 8562)
+Writing d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+14 seconds elapsed
+
+
+
+2 threads
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.prt
+2669 portalclusters
+8584 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5.
+
+
+materialPath: c:\program files\steam\steamapps\lucascesar\half-life 2 episode two\ep2\materials
+Loading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (4) (883527 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3177 texinfos to 1473
+Reduced 239 texdatas to 190 (10600 bytes to 8562)
+Writing d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+16 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+No vis information, direct lighting only.
+12671 faces
+35 degenerate faces
+17033466 square feet [2452819200.00 square inches]
+58 Displacements
+261728 Square Feet [37688880.00 Square Inches]
+186 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.4121 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+32 of 84 (38% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 121/1024         5808/49152    (11.8%) 
+brushes               2443/8192        29316/98304    (29.8%) 
+brushsides           20749/65536      165992/524288   (31.7%) 
+planes               15018/65536      300360/1310720  (22.9%) 
+vertexes             19560/65536      234720/786432   (29.8%) 
+nodes                 5994/65536      191808/2097152  ( 9.1%) 
+texinfos              1473/12288      106056/884736   (12.0%) 
+texdata                190/2048         6080/65536    ( 9.3%) 
+dispinfos               58/0           10208/0        ( 0.0%) 
+disp_verts           16762/0          335240/0        ( 0.0%) 
+disp_tris            29696/0           59392/0        ( 0.0%) 
+disp_lmsamples      916526/0          916526/0        ( 0.0%) 
+faces                12671/65536      709576/3670016  (19.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5251/65536      294056/3670016  ( 8.0%) 
+leaves                6116/65536      195712/2097152  ( 9.3%) 
+leaffaces            15258/65536       30516/131072   (23.3%) 
+leafbrushes           5578/65536       11156/131072   ( 8.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            81344/512000     325376/2048000  (15.9%) 
+edges                46450/256000     185800/1024000  (18.1%) 
+LDR worldlights        186/8192        16368/720896   ( 2.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips           1209/32768       12090/327680   ( 3.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         20082/65536       40164/131072   (30.6%) 
+cubemapsamples          57/1024          912/16384    ( 5.6%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]    37250816/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      110605/393216   (28.1%) 
+LDR ambient table     6116/65536       24464/262144   ( 9.3%) 
+HDR ambient table     6116/65536       24464/262144   ( 9.3%) 
+LDR leaf ambient     27170/65536      760760/1835008  (41.5%) 
+HDR leaf ambient      6116/65536      171248/1835008  ( 9.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14464    ( 0.0%) 
+pakfile               [variable]     5801456/0        ( 0.0%) 
+physics               [variable]      883527/4194304  (21.1%) 
+physics terrain       [variable]       49174/1048576  ( 4.7%) 
+
+Level flags = 1
+
+Total triangle count: 34747
+Writing d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+52 minutes, 32 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[48 texlights parsed from 'lights.rad']
+
+Loading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+No vis information, direct lighting only.
+12671 faces
+35 degenerate faces
+17033466 square feet [2452819200.00 square inches]
+58 Displacements
+261728 Square Feet [37688880.00 Square Inches]
+186 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.8349 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+84 of 84 (100% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Computing static prop lighting : 00...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 121/1024         5808/49152    (11.8%) 
+brushes               2443/8192        29316/98304    (29.8%) 
+brushsides           20749/65536      165992/524288   (31.7%) 
+planes               15018/65536      300360/1310720  (22.9%) 
+vertexes             19560/65536      234720/786432   (29.8%) 
+nodes                 5994/65536      191808/2097152  ( 9.1%) 
+texinfos              1473/12288      106056/884736   (12.0%) 
+texdata                190/2048         6080/65536    ( 9.3%) 
+dispinfos               58/0           10208/0        ( 0.0%) 
+disp_verts           16762/0          335240/0        ( 0.0%) 
+disp_tris            29696/0           59392/0        ( 0.0%) 
+disp_lmsamples      916526/0          916526/0        ( 0.0%) 
+faces                12671/65536      709576/3670016  (19.3%) 
+hdr faces            12671/65536      709576/3670016  (19.3%) 
+origfaces             5251/65536      294056/3670016  ( 8.0%) 
+leaves                6116/65536      195712/2097152  ( 9.3%) 
+leaffaces            15258/65536       30516/131072   (23.3%) 
+leafbrushes           5578/65536       11156/131072   ( 8.5%) 
+areas                    3/256            24/2048     ( 1.2%) 
+surfedges            81344/512000     325376/2048000  (15.9%) 
+edges                46450/256000     185800/1024000  (18.1%) 
+LDR worldlights        186/8192        16368/720896   ( 2.3%) 
+HDR worldlights        186/8192        16368/720896   ( 2.3%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips           1209/32768       12090/327680   ( 3.7%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         20082/65536       40164/131072   (30.6%) 
+cubemapsamples          57/1024          912/16384    ( 5.6%) 
+overlays                 4/512          1408/180224   ( 0.8%) 
+LDR lightdata         [variable]    37250816/0        ( 0.0%) 
+HDR lightdata         [variable]    37250816/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      110605/393216   (28.1%) 
+LDR ambient table     6116/65536       24464/262144   ( 9.3%) 
+HDR ambient table     6116/65536       24464/262144   ( 9.3%) 
+LDR leaf ambient     27170/65536      760760/1835008  (41.5%) 
+HDR leaf ambient     27180/65536      761040/1835008  (41.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14464    ( 0.0%) 
+pakfile               [variable]     6598652/0        ( 0.0%) 
+physics               [variable]      883527/4194304  (21.1%) 
+physics terrain       [variable]       49174/1048576  ( 4.7%) 
+
+Level flags = 3
+
+Total triangle count: 34747
+Writing d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+52 minutes, 37 seconds elapsed
+
+
+
+materialPath: c:\program files\steam\steamapps\lucascesar\half-life 2 episode two\ep2\materials
+Loading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2102 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (3) (883527 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3177 texinfos to 1473
+Reduced 239 texdatas to 190 (10600 bytes to 8562)
+Writing d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+16 seconds elapsed
+
+
+
+2 threads
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.bsp
+reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.prt
+2669 portalclusters
+8584 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8.

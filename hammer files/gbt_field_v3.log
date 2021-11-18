@@ -1,0 +1,183 @@
+
+
+
+materialPath: c:\arquivos de programas\steam\steamapps\lucascesar\half-life 2\hl2\materials
+Loading C:\Arquivos de programas\Steam\steamapps\lucascesar\sourcesdk_content\hl2\mapsrc\gbt_field_v3.vmf
+"materials/nature/water002a.vtf": cached version doesn't exist
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+"materials/nature/water002a.vtf": cached version doesn't exist
+"materials/nature/water002a.vtf": cached version doesn't exist
+"materials/nature/water002a.vtf": cached version doesn't exist
+done (0)
+writing C:\Arquivos de programas\Steam\steamapps\lucascesar\sourcesdk_content\hl2\mapsrc\gbt_field_v3.prt...done (1)
+Creating default cubemaps for env_cubemap using skybox materials:
+skybox/sky_day02_01*.vmt
+Run buildcubemaps in the engine to get the correct cube maps.
+
+No such variable "$hdrbasetexture" for material "skybox/sky_day02_01rt"
+Can't load skybox file skybox/sky_day02_01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (196056 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 454 texinfos to 255
+Reduced 151 texdatas to 103 (7108 bytes to 4867)
+Writing C:\Arquivos de programas\Steam\steamapps\lucascesar\sourcesdk_content\hl2\mapsrc\gbt_field_v3.bsp
+4 seconds elapsed
+
+
+
+2 threads
+reading c:\arquivos de programas\steam\steamapps\lucascesar\sourcesdk_content\hl2\mapsrc\gbt_field_v3.bsp
+reading c:\arquivos de programas\steam\steamapps\lucascesar\sourcesdk_content\hl2\mapsrc\gbt_field_v3.prt
+ 936 portalclusters
+2416 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 211 visible clusters (0.00%)
+Total clusters visible: 174383
+Average clusters visible: 186
+Building PAS...
+Average clusters audible: 530
+visdatasize:149719  compressed from 224640
+writing c:\arquivos de programas\steam\steamapps\lucascesar\sourcesdk_content\hl2\mapsrc\gbt_field_v3.bsp
+51 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\arquivos de programas\steam\steamapps\lucascesar\sourcesdk_content\hl2\mapsrc\gbt_field_v3.bsp
+4297 faces
+4694072 square feet [675946368.00 square inches]
+0 displacements
+0 square feet [0.00 square inches]
+4297 patches before subdivision
+113587 patches after subdivision
+24 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 13518390, max 801
+transfer lists: 103.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(352422, 284598, 154621)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(55793, 34839, 15639)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(12072, 5701, 2260)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(3095, 1130, 420)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(843, 237, 83)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(245, 53, 18)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(73, 12, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(23, 3, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(7, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1028 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+ComputePerLeafAmbientLighting: 0...1...2...3...4...5...6...7...8...9...10
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/1024          192/49152    ( 0.4%) 
+brushes               4225/8192        50700/98304    (51.6%) 
+brushsides           41903/65536      335224/524288   (63.9%) 
+planes                1468/65536       29360/1310720  ( 2.2%) 
+vertexes              6857/65536       82284/786432   (10.5%) 
+nodes                 2112/65536       67584/2097152  ( 3.2%) 
+texinfos               255/12288       18360/884736   ( 2.1%) 
+texdata                103/2048         3296/65536    ( 5.0%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 4297/65536      240632/3670016  ( 6.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1556/65536       87136/3670016  ( 2.4%) 
+leaves                2117/65536       67744/2097152  ( 3.2%) 
+leaffaces             4679/65536        9358/131072   ( 7.1%) 
+leafbrushes           1571/65536        3142/131072   ( 2.4%) 
+areas                    5/256            40/2048     ( 2.0%) 
+surfedges            26132/512000     104528/2048000  ( 5.1%) 
+edges                14731/256000      58924/1024000  ( 5.8%) 
+LDR worldlights         24/8192         2112/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+waterstrips            308/32768        3080/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4644/65536        9288/131072   ( 7.1%) 
+cubemapsamples          25/1024          400/16384    ( 2.4%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     7802228/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      149719/16777216 ( 0.9%) 
+entdata               [variable]       17198/393216   ( 4.4%) 
+LDR leaf ambient      2117/65536       50808/1572864  ( 3.2%) 
+HDR leaf ambient         0/65536           0/1572864  ( 0.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/590      ( 0.2%) 
+pakfile               [variable]      298008/0        ( 0.0%) 
+
+Level flags = 0
+
+Win32 Specific Data:
+physics               [variable]      196056/4194304  ( 4.7%) 
+==== Total Win32 BSP file data space used: 9687403 bytes ====
+
+Total triangle count: 11419
+Writing c:\arquivos de programas\steam\steamapps\lucascesar\sourcesdk_content\hl2\mapsrc\gbt_field_v3.bsp
+2 minutes, 23 seconds elapsed
+
+
+
+materialPath: c:\arquivos de programas\steam\steamapps\lucascesar\half-life 2\hl2\materials
+Loading D:\Leo\Backup\sdk_content\mapsrc\gbt_field_v3.vmf
+"materials/nature/water002a.vtf": cached version doesn't exist
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces..."materials/nature/water002a.vtf": cached version doesn't exist
+done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+"materials/nature/water002a.vtf": cached version doesn't exist
+"materials/nature/water002a.vtf": cached version doesn't exist
+"materials/nature/water002a.vtf": cached version doesn't exist
+"materials/nature/water002a.vtf": cached version doesn't exist
+done (0)
+writing D:\Leo\Backup\sdk_content\mapsrc\gbt_field_v3.prt...done (0)
+material "skybox/militia_hdrrt" not found
+Can't load skybox file skybox/militia_hdr to build the default cubemap!
+No such variable "$hdrbasetexture" for material "___error"
+Can't load skybox file skybox/militia_hdr to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+material "overlays/stain_oil_03" not found
+Building Physics collision data...
+done (0) (390556 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1356 texinfos to 815
+Reduced 258 texdatas to 203 (11470 bytes to 9084)
+Writing D:\Leo\Backup\sdk_content\mapsrc\gbt_field_v3.bsp
+4 seconds elapsed
+
+
+
+2 threads
+reading d:\leo\backup\sdk_content\mapsrc\gbt_field_v3.bsp
+reading d:\leo\backup\sdk_content\mapsrc\gbt_field_v3.prt
+2031 portalclusters
+5706 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9.
