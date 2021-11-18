@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "maps/gbt_field_v3_night"
+	"$translucent" 1
+}

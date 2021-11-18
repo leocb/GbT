@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"gbtsvn"
+	"version"			"1.0"
+	"up_date"			"3th January 2009"
+	"author_name"		"LouKs"
+	"author_email"		"leobottaro@ig.com.br"
+	"author_url"		"  "
+	"info"				"Gbt only subversion"
+	"override"			"0"
+}

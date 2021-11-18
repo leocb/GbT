@@ -1,0 +1,12 @@
+    "Maps" 
+    { 
+      "Garry's Mod" 
+      { 
+     "gbt_field_v3_night" 
+     { 
+        "Credits"   "LouKs 85" 
+        "Material"  "maps/gbt_field_v3_night"    
+     } 
+    } 
+   
+   }
