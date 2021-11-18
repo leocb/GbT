@@ -1,9 +1,0 @@
-"AddonInfo"
-{
-	"name"		"Sound Emitter"
-	"version"	"3"
-	"author_name"	"Major Victory"
-	"author_email"	"Contact on FacePunch or #luahelp"
-	"author_url"	"http://www.garrysmod.org/user/?u=20234"
-	"info"		"Adds a highly customizable sound emitter STOOL."
-}

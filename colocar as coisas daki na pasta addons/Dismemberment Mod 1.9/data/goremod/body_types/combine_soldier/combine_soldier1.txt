@@ -1,2 +1,0 @@
-combine_soldier
-combine_super_soldier

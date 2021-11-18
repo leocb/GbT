@@ -1,8 +1,0 @@
-"AddonInfo"
-{
-	"name"		"Weight STool"
-	"version"	"1.21"
-	"author_name"	"Spoco"
-	"info"		""
-	"override"	"0"
-}

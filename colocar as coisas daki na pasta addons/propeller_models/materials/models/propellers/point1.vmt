@@ -1,9 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "models/propellers/point1"
-	"$surfaceprop" "paper"
-	"$selfillum" 0
-	"$model" 1
-}
-
-

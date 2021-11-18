@@ -1,9 +1,0 @@
-"AddonInfo"
-{
-	"name"		"Propeller Model Pack"
-	"version"	"1.1"
-	"up_date"	"n/a"
-	"author_name"	"GiGaBiTe"
-	"author_email"	"n/a"
-	"author_url"	"http://darksideserver.cjb.net"
-}
