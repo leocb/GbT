@@ -1,7 +1,7 @@
 "LightmappedGeneric"
 {
 	// Original shader: BaseTimesLightmap
-	"$basetexture" "Custom\V4Cred"
+	"$basetexture" "concrete\concretefloor027a"
 	"$surfaceprop" "concrete"
-	"%keywords" "v4"
+	"%keywords" "c17downtown"
 }
