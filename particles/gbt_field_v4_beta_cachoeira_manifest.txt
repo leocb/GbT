@@ -1,0 +1,6 @@
+particles_manifest
+{
+	
+        "file"		"particles/gbtwaterfall.pcf"
+        
+}

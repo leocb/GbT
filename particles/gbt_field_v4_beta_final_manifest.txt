@@ -1,0 +1,8 @@
+particles_manifest
+{
+	
+        "file"		"particles/gbtdevroom_v4_fix.pcf"	
+        "file"		"particles/gbtdevroom2_v4_fix.pcf"
+        "file"		"particles/gbtwaterfall.pcf"
+        
+}

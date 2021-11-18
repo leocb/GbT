@@ -1,0 +1,7 @@
+particles_manifest
+{
+	
+        "file"		"particles/gbtdevroom.pcf"	
+        "file"		"particles/gbtdevroom2.pcf"
+        
+}
