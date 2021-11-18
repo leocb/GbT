@@ -1,6 +1,0 @@
-"VertexLitGeneric"
-{
-	"$baseTexture" "models\hoverboard\boardtransparency"
-	"$translucent" 1
-	"$bumpmap" "models\hoverboard/boardnormal"
-}
