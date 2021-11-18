@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"			"Thermal X-Ray and Night Vision"
+	"version"		"1.2"
+	"author_name"	"Teta_Bonita"
+	"author_url"	""
+	
+	"info"			"Client-side wallhacks! \0/"
+	
+	"override"		"0"
+}

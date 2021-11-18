@@ -1,0 +1,254 @@
+"Out"
+{
+	"1"
+	{
+		"bonus"
+		{
+			"jump"		"2"
+			"speed"		"1"
+			"turn"		"1"
+		}
+		"model"		"models/dav0r/hoverboard/hoverboard.mdl"
+		"name"		"Hackjob"
+		"rotation"	"90"
+		"driver"	"0 -6 3"
+		"effect_1"
+		{
+			"effect"	"trail"
+			"position"	"-4 16.8 2"
+		}
+		"effect_2"
+		{
+			"effect"	"trail"
+			"position"	"4 16.8 2"
+		}
+		"effect_3"
+		{
+			"effect"	"heatwave"
+			"position"	"0 5 0"
+			"normal"	"0 0 -1"
+			"scale"		"1"
+		}
+		"effect_4"
+		{
+			"effect"	"heatwave"
+			"position"	"0 -21 0"
+			"normal"	"0 0 -1"
+			"scale"		"1"
+		}
+		"files"
+		{
+			"1"	"materials/models/hoverboard/boardmap.vmt"
+			"2"	"materials/models/hoverboard/boardmap.vtf"
+			"3"	"materials/models/hoverboard/boardnormal.vtf"
+			"4"	"materials/models/hoverboard/boardtransparency.vmt"
+			"5"	"materials/models/hoverboard/boardtransparency.vtf"
+		}
+	}
+	"2"
+	{
+		"bonus"
+		{
+			"jump"		"2"
+			"flip"		"2"
+		}
+		"model"		"models/UT3/hoverboard.mdl"
+		"name"		"Unreal"
+		"rotation"	"0"
+		"driver"	"0 0 5"
+		"effect_1"
+		{
+			"effect"	"trail"
+			"position"	"-10.9664 -3.6816 -6.7901"
+		}
+		"effect_2"
+		{
+			"effect"	"trail"
+			"position"	"-11.2077 4.9971 -6.6772"
+		}
+		"files"
+		{
+			"1"	"materials/UT3/hoverboard.vmt"
+			"2"	"materials/UT3/hoverboard.vtf"
+			"3"	"materials/UT3/hoverboard_mask.vtf"
+			"4"	"materials/UT3/hoverboard_normal.vtf"
+		}
+	}
+	"3"
+	{
+		"bonus"
+		{
+			"speed"		"2"
+			"turn"		"2"
+		}
+		"model"		"models/jaanus/scopesboard.mdl"
+		"name"		"Huvaboard"
+		"rotation"	"90"
+		"effect_1"
+		{
+			"effect"	"plasma_thruster_middle"
+			"position"	"-5.2707 -14.5196 0"
+			"normal"	"0 0 -1"
+		}
+		"effect_2"
+		{
+			"effect"	"plasma_thruster_middle"
+			"position"	"5.2707 -14.5196 0"
+			"normal"	"0 0 -1"
+		}
+		"effect_3"
+		{
+			"effect"	"plasma_thruster_middle"
+			"position"	"-5.2707 14.5196 0"
+			"normal"	"0 0 -1"
+		}
+		"effect_4"
+		{
+			"effect"	"plasma_thruster_middle"
+			"position"	"5.2707 14.5196 0"
+			"normal"	"0 0 -1"
+		}
+		"effect_5"
+		{
+			"effect"	"trail"
+			"position"	"-0.2088 23.0561 -2.6297"
+		}
+		"files"
+		{
+			"1"	"materials/Jaanus/huvaburd.vmt"
+			"2"	"materials/Jaanus/huvaburd.vtf"
+			"3"	"materials/Jaanus/enginefuck.vtf"
+			"4"	"materials/Jaanus/enginefuck.vmt"
+		}
+	}
+	"4"
+	{
+		"bonus"
+		{
+			"speed"		"3"
+			"turn"		"1"
+		}
+		"model"		"models/jaanus/truehoverboard_1.mdl"
+		"name"		"Mr. Plank"
+		"rotation"	"90"
+		"effect_1"
+		{
+			"effect"	"heatwave"
+			"position"	"0.2036 0.3881 -3.2154"
+			"normal"	"0 0 -1"
+			"scale"		"1"
+		}
+		"effect_2"
+		{
+			"effect"	"heatwave"
+			"position"	"0.2603 26.1925 -2.9074"
+			"normal"	"0 0 -1"
+			"scale"		"1"
+		}
+		"effect_3"
+		{
+			"effect"	"heatwave"
+			"position"	"0.1847 -26.8710 -2.8477"
+			"normal"	"0 0 -1"
+			"scale"		"1"
+		}
+		"effect_4"
+		{
+			"effect"	"trail"
+			"position"	"5.2859 40.6489 -0.2452"
+		}
+		"effect_5"
+		{
+			"effect"	"trail"
+			"position"	"-5.2859 40.6489 -0.2452"
+		}
+		"files"
+		{
+			"1"	"materials/Jaanus/bawrd.vmt"
+			"2"	"materials/Jaanus/bawrd.vtf"
+		}
+	}
+	"5"
+	{
+		"bonus"
+		{
+			"speed"		"3"
+			"twist"		"1"
+		}
+		"model"		"models/jaanus/truehoverboard_2.mdl"
+		"name"		"Mr. Plank II"
+		"rotation"	"90"
+		"effect_1"
+		{
+			"effect"	"trail"
+			"position"	"5.2859 40.6489 -0.2452"
+		}
+		"effect_2"
+		{
+			"effect"	"trail"
+			"position"	"-5.2859 40.6489 -0.2452"
+		}
+		"files"
+		{
+			"1"	"materials/Jaanus/bawrd.vmt"
+			"2"	"materials/Jaanus/bawrd.vtf"
+		}
+	}
+	"6"
+	{
+		"bonus"
+		{
+			"flip"		"2"
+			"twist"		"2"
+		}
+		"model"		"models/jaanus/stuntboard.mdl"
+		"name"		"Stuntboard"
+		"rotation"	"90"
+		"effect_1"
+		{
+			"effect"	"plasma_thruster_middle"
+			"position"	"3.4516 0.0278 0"
+			"normal"	"0 0 -1"
+		}
+		"effect_2"
+		{
+			"effect"	"plasma_thruster_middle"
+			"position"	"-3.4516 0.0278 0"
+			"normal"	"0 0 -1"
+		}
+		"effect_3"
+		{
+			"effect"	"plasma_thruster_middle"
+			"position"	"-2.4516 29.2273 0"
+			"normal"	"0 0.3 -0.91"
+		}
+		"effect_4"
+		{
+			"effect"	"plasma_thruster_middle"
+			"position"	"2.4516 29.2273 0"
+			"normal"	"0 0.3 -0.91"
+		}
+		"effect_5"
+		{
+			"effect"	"plasma_thruster_middle"
+			"position"	"-2.4516 -29.2273 0"
+			"normal"	"0 -0.3 -0.91"
+		}
+		"effect_6"
+		{
+			"effect"	"plasma_thruster_middle"
+			"position"	"2.4516 -29.2273 0"
+			"normal"	"0 -0.3 -0.91"
+		}
+		"effect_7"
+		{
+			"effect"	"trail"
+			"position"	"-0.1127 31.5908 0.9696"
+		}
+		"files"
+		{
+			"1"	"materials/Jaanus/stuntboard.vmt"
+			"2"	"materials/Jaanus/stuntboard.vtf"
+		}
+	}
+}

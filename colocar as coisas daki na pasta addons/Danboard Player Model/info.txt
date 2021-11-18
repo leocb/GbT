@@ -1,0 +1,12 @@
+"AddonInfo"
+{
+	"name"		"Danboard Player Model"
+	"version"	"1.0"
+	"up_date"	"09/15/2008"
+	"author_name"	"Ponkotsu"
+	"author_email"	""
+	"author_url"	""
+	
+	"info"		"Danboard from Yotsubato"
+
+}

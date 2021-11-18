@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"Anti-NoClip"
+	"version"			"2"
+	"up_date"			"24th January 2007"
+	"author_name"		"RabidToaster"
+	"author_email"		"rabidtoaster@rabidtoaster.com"
+	"author_url"		"http://rabidtoaster.com/"
+	"info"				"A tool for protecting your props from noclip."
+	"override"			"0"
+}

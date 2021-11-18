@@ -1,0 +1,130 @@
+"7"
+{
+	"Information"
+	{
+		"name"		"Propeller Models"
+	}
+	"Entries"
+	{
+		"1"
+		{
+			"model"		"models/propellers/rotor2x.mdl"
+		}
+		"2"
+		{
+			"model"		"models/propellers/rotor3x.mdl"
+		}
+		"3"
+		{
+			"model"		"models/propellers/rotor4x.mdl"
+		}
+		"4"
+		{
+			"model"		"models/propellers/rotor5x.mdl"
+		}
+		"5"
+		{
+			"model"		"models/propellers/blade.mdl"
+		}
+		"6"
+		{
+			"model"		"models/propellers/blade_twist.mdl"
+		}
+		"7"
+		{
+			"model"		"models/propellers/blade_twistr.mdl"
+		}
+		"8"
+		{
+			"model"		"models/propellers/wood_prop.mdl"
+		}
+		"9"
+		{
+			"model"		"models/propellers/wood_propr.mdl"
+		}
+		"10"
+		{
+			"model"		"models/propellers/propeller2x.mdl"
+		}
+		"11"
+		{
+			"model"		"models/propellers/propeller2xr.mdl"
+		}
+		"12"
+		{
+			"model"		"models/propellers/propeller3x.mdl"
+		}
+		"13"
+		{
+			"model"		"models/propellers/propeller3xr.mdl"
+		}
+		"14"
+		{
+			"model"		"models/propellers/propeller3xc.mdl"
+		}
+		"15"
+		{
+			"model"		"models/propellers/propeller3xcr.mdl"
+		}
+		"16"
+		{
+			"model"		"models/propellers/propeller4x.mdl"
+		}
+		"17"
+		{
+			"model"		"models/propellers/propeller4xr.mdl"
+		}
+		"18"
+		{
+			"model"		"models/propellers/propeller5x.mdl"
+		}
+		"19"
+		{
+			"model"		"models/propellers/propeller5xr.mdl"
+		}
+		"20"
+		{
+			"model"		"models/engine/clerget9c.mdl"
+		}
+		"21"
+		{
+			"model"		"models/propellers/paddle_prop.mdl"
+		}
+		"22"
+		{
+			"model"		"models/propellers/paddle_propr.mdl"
+		}
+		"23"
+		{
+			"model"		"models/propellers/scoop_propeller4x.mdl"
+		}
+		"24"
+		{
+			"model"		"models/propellers/scoop_propeller4xr.mdl"
+		}
+		"25"
+		{
+			"model"		"models/propellers/scoop_propeller4x_black.mdl"
+		}
+		"26"
+		{
+			"model"		"models/propellers/scoop_propeller4xr_black.mdl"
+		}
+		"27"
+		{
+			"model"		"models/propellers/crankshaft.mdl"
+		}
+		"28"
+		{
+			"model"		"models/engine/crankshaft_1.mdl"
+		}
+		"29"
+		{
+			"model"		"models/engine/crankshaft_2.mdl"
+		}
+		"30"
+		{
+			"model"		"models/engine/crankshaft_4.mdl"
+		}
+	}
+}

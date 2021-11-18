@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name"			"Grappling Hook"
+	"version"		"3.3"
+	"up_date"		"3/25/08"
+	"author_name"		"Hxrmn, HOLOGRAPHICpizza"
+	"author_email"		"hello45044@gmail.com"
+	"author_url"		"http://www.trickystutorials.com/"
+	"info"			"Hxrmn's Grappling Hook with lots of bug fixes."
+}

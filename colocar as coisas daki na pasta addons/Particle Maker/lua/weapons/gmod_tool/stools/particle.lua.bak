@@ -1,0 +1,738 @@
+
+TOOL.Category		= "Construction"
+TOOL.Name			= "#Particle Maker"
+TOOL.Command		= nil
+TOOL.ConfigName		= ""
+
+TOOL.ClientConVar["weld"]			= "1"
+
+TOOL.ClientConVar["key"]			= "5"
+TOOL.ClientConVar["delay"]			= "0.2"
+TOOL.ClientConVar["toggle"]			= "0"
+TOOL.ClientConVar["gun"]			= "0"
+TOOL.ClientConVar["trace"]			= "0"
+
+TOOL.ClientConVar["material"]		= "effects/fire_cloud1"
+TOOL.ClientConVar["color1_r"]		= "255"
+TOOL.ClientConVar["color1_g"]		= "255"
+TOOL.ClientConVar["color1_b"]		= "255"
+TOOL.ClientConVar["color2_r"]		= "255"
+TOOL.ClientConVar["color2_g"]		= "255"
+TOOL.ClientConVar["color2_b"]		= "255"
+TOOL.ClientConVar["color_random"]	= "0"
+TOOL.ClientConVar["velocity"]		= "50"
+TOOL.ClientConVar["spread"]			= "50"
+TOOL.ClientConVar["number"]			= "1"
+TOOL.ClientConVar["dietime"]		= "3"
+TOOL.ClientConVar["startalpha"]		= "255"
+TOOL.ClientConVar["endalpha"]		= "1"
+TOOL.ClientConVar["startsize"]		= "5"
+TOOL.ClientConVar["endsize"]		= "20"
+TOOL.ClientConVar["startlength"]	= "0"
+TOOL.ClientConVar["endlength"]		= "0"
+TOOL.ClientConVar["roll"]			= "0"
+TOOL.ClientConVar["rolldelta"]		= "0"
+TOOL.ClientConVar["airresistance"]	= "5"
+TOOL.ClientConVar["bounce"]			= "0.2"
+TOOL.ClientConVar["gravity"]		= "-50"
+TOOL.ClientConVar["collide"]		= "1"
+TOOL.ClientConVar["lighting"]		= "0"
+TOOL.ClientConVar["sliding"]		= "0"
+
+TOOL.ClientConVar["3d"]					= "0"
+TOOL.ClientConVar["align"]				= "1"
+TOOL.ClientConVar["stick"]				= "1"
+TOOL.ClientConVar["doublesided"]		= "1"
+TOOL.ClientConVar["anglevelx"]			= "150"
+TOOL.ClientConVar["anglevely"]			= "150"
+TOOL.ClientConVar["anglevelz"]			= "150"
+TOOL.ClientConVar["sticklifetime"]		= "2"
+TOOL.ClientConVar["stickstartsize"]		= "20"
+TOOL.ClientConVar["stickendsize"]		= "0"
+TOOL.ClientConVar["stickstartalpha"]	= "255"
+TOOL.ClientConVar["stickendalpha"]		= "0"
+
+// Copy the table
+local ConVars = table.Copy(TOOL.ClientConVar)
+
+// Add all wire convars
+for k,v in pairs(ConVars) do
+	TOOL.ClientConVar["wire_"..k] = "0"
+end
+
+cleanup.Register("particles")
+CreateConVar("sbox_maxparticles", 1, FCVAR_NOTIFY)
+CreateConVar("particle_clamp", 1, FCVAR_NOTIFY)
+
+if (CLIENT) then
+
+	language.Add("Tool_particle_name", "Particle Maker")
+	language.Add("Tool_particle_desc", "Left click: Spawn/update particle maker  Right click: Get settings")
+	language.Add("Tool_particle_0", "Made by: Killer HAHA (Robbis_1)")
+	
+	language.Add("Undone_particle", "Undone Particle Maker")
+	
+	language.Add("Cleanup_particles", "Particle Maker")
+	language.Add("Cleaned_particles", "Cleaned up all Particle Makers")
+	language.Add("SBoxLimit_particles", "You've reached the Particle Makers limit!")
+
+end
+
+function TOOL:GetNetworkedValues(Ent)
+	local Data = {}
+	
+	Data.Velocity 		= Ent:GetNetworkedFloat("Velocity")
+	Data.Spread 		= Ent:GetNetworkedFloat("Spread")
+	Data.Number 		= Ent:GetNetworkedInt("Number")
+	Data.DieTime 		= Ent:GetNetworkedFloat("DieTime")
+	Data.StartAlpha 	= Ent:GetNetworkedFloat("StartAlpha")
+	Data.EndAlpha 		= Ent:GetNetworkedFloat("EndAlpha")
+	Data.StartSize	 	= Ent:GetNetworkedFloat("StartSize")
+	Data.EndSize 		= Ent:GetNetworkedFloat("EndSize")
+	Data.StartLength 	= Ent:GetNetworkedFloat("StartLength")
+	Data.EndLength	 	= Ent:GetNetworkedFloat("EndLength")
+	Data.Roll 			= Ent:GetNetworkedFloat("Roll")
+	Data.RollDelta	 	= Ent:GetNetworkedFloat("RollDelta")
+	Data.AirResistance	= Ent:GetNetworkedFloat("AirResistance")
+	Data.Bounce			= Ent:GetNetworkedFloat("Bounce")
+	Data.Gravity		= Ent:GetNetworkedFloat("Gravity")
+	Data.Collide		= Ent:GetNetworkedBool("Collide")
+	if (Data.Collide) then Data.Collide = 1 else Data.Collide = 0 end
+	Data.Lighting		= Ent:GetNetworkedBool("Lighting")
+	if (Data.Lighting) then Data.Lighting = 1 else Data.Lighting = 0 end
+	Data.Sliding		= Ent:GetNetworkedBool("Sliding")
+	if (Data.Sliding) then Data.Sliding = 1 else Data.Sliding = 0 end
+	Data.R1				= Ent:GetNetworkedInt("R1")
+	Data.Color1_R		= Data.R1
+	Data.G1				= Ent:GetNetworkedInt("G1")
+	Data.Color1_G		= Data.G1
+	Data.B1				= Ent:GetNetworkedInt("B1")
+	Data.Color1_B		= Data.B1
+	Data.R2				= Ent:GetNetworkedInt("R2")
+	Data.Color2_R		= Data.R2
+	Data.G2				= Ent:GetNetworkedInt("G2")
+	Data.Color2_G		= Data.G2
+	Data.B2				= Ent:GetNetworkedInt("B2")
+	Data.Color2_B		= Data.B2
+	Data.Random			= Ent:GetNetworkedBool("Random")
+	if (Data.Random) then Data.Random = 1 else Data.Random = 0 end
+	Data.Color_Random	= Data.Random
+	Data.Material		= Ent:GetNetworkedString("Material")
+	
+	Data._3D				= Ent:GetNetworkedBool("3D")
+	if (Data._3D) then Data._3D = 1 else Data._3D = 0 end
+	Data["3D"]				= Data._3D
+	Data.Align				= Ent:GetNetworkedBool("Align")
+	if (Data.Align) then Data.Align = 1 else Data.Align = 0 end
+	Data.Stick				= Ent:GetNetworkedBool("Stick")
+	if (Data.Stick) then Data.Stick = 1 else Data.Stick = 0 end
+	Data.DoubleSided		= Ent:GetNetworkedBool("DoubleSided")
+	if (Data.DoubleSided) then Data.DoubleSided = 1 else Data.DoubleSided = 0 end
+	Data.AngleVelX			= Ent:GetNetworkedFloat("AngleVelX")
+	Data.AngleVelY			= Ent:GetNetworkedFloat("AngleVelY")
+	Data.AngleVelZ			= Ent:GetNetworkedFloat("AngleVelZ")
+	Data.StickLifeTime		= Ent:GetNetworkedFloat("StickLifeTime")
+	Data.StickStartSize		= Ent:GetNetworkedFloat("StickStartSize")
+	Data.StickEndSize		= Ent:GetNetworkedFloat("StickEndSize")
+	Data.StickStartAlpha	= Ent:GetNetworkedFloat("StickStartAlpha")
+	Data.StickEndAlpha		= Ent:GetNetworkedFloat("StickEndAlpha")
+	
+	return Data
+end
+
+function TOOL:GetValues()
+	local Data = {}
+	
+	Data.R1 			= self:GetClientNumber("color1_r")
+	Data.G1	 			= self:GetClientNumber("color1_g")
+	Data.B1	 			= self:GetClientNumber("color1_b")
+	Data.R2 			= self:GetClientNumber("color2_r")
+	Data.G2	 			= self:GetClientNumber("color2_g")
+	Data.B2	 			= self:GetClientNumber("color2_b")
+	Data.Random 		= self:GetClientNumber("color_random") == 1
+	Data.Material		= self:GetClientInfo("material")
+	
+	Data.Key	 		= self:GetClientNumber("key") 
+	Data.Delay 			= self:GetClientNumber("delay") 
+	Data.Toggle 		= self:GetClientNumber("toggle") == 1
+	Data.Velocity 		= self:GetClientNumber("velocity")
+	Data.Spread 		= self:GetClientNumber("spread")
+	Data.Number 		= self:GetClientNumber("number")
+	Data.DieTime 		= self:GetClientNumber("dietime")
+	Data.StartAlpha 	= self:GetClientNumber("startalpha")
+	Data.EndAlpha 		= self:GetClientNumber("endalpha")
+	Data.StartSize 		= self:GetClientNumber("startsize")
+	Data.EndSize 		= self:GetClientNumber("endsize")
+	Data.StartLength 	= self:GetClientNumber("startlength")
+	Data.EndLength 		= self:GetClientNumber("endlength")
+	Data.Roll 			= self:GetClientNumber("roll")
+	Data.RollDelta 		= self:GetClientNumber("rolldelta")
+	Data.AirResistance	= self:GetClientNumber("airresistance")
+	Data.Bounce			= self:GetClientNumber("bounce")
+	Data.Gravity		= self:GetClientNumber("gravity")
+	Data.Collide		= self:GetClientNumber("collide") == 1
+	Data.Lighting		= self:GetClientNumber("lighting") == 1
+	Data.Sliding		= self:GetClientNumber("sliding") == 1
+	
+	Data._3D				= self:GetClientNumber("3d") == 1
+	Data.Align				= self:GetClientNumber("align") == 1
+	Data.Stick				= self:GetClientNumber("stick") == 1
+	Data.DoubleSided		= self:GetClientNumber("doublesided") == 1
+	Data.AngleVelX			= self:GetClientNumber("anglevelx")
+	Data.AngleVelY			= self:GetClientNumber("anglevely")
+	Data.AngleVelZ			= self:GetClientNumber("anglevelz")
+	Data.StickLifeTime		= self:GetClientNumber("sticklifetime")
+	Data.StickStartSize		= self:GetClientNumber("stickstartsize")
+	Data.StickEndSize		= self:GetClientNumber("stickendsize")
+	Data.StickStartAlpha	= self:GetClientNumber("stickstartalpha")
+	Data.StickEndAlpha		= self:GetClientNumber("stickendalpha")
+	
+	if (!SinglePlayer()) and (GetConVarNumber("particle_clamp") == 1) then
+		
+		// Clamp stuff in multiplayer.. because people are idiots
+		Data.Delay			= math.Clamp(Data.Delay, 0.001, 10)
+		Data.Velocity		= math.Clamp(Data.Velocity, 1, 10000)
+		Data.Number			= math.Clamp(Data.Number, 1, 10)
+		Data.Spread			= math.Clamp(Data.Spread, 0, 360)
+		Data.DieTime		= math.Clamp(Data.DieTime, 0, 10)
+		Data.StartAlpha		= math.Clamp(Data.StartAlpha, 0, 255)
+		Data.EndAlpha		= math.Clamp(Data.EndAlpha, 0, 255)
+		Data.StartSize		= math.Clamp(Data.StartSize, 0, 100)
+		Data.EndSize		= math.Clamp(Data.EndSize, 0, 100)
+		Data.StartLength	= math.Clamp(Data.StartLength, 0, 100)
+		Data.EndLength		= math.Clamp(Data.EndLength, 0, 100)
+		Data.Roll			= math.Clamp(Data.Roll, 0, 10)
+		Data.RollDelta		= math.Clamp(Data.RollDelta, -10, 10)
+		Data.AirResistance	= math.Clamp(Data.AirResistance, 0, 1000)
+		Data.Bounce			= math.Clamp(Data.Bounce, 0, 10)
+		Data.Gravity		= math.Clamp(Data.Gravity, -1000, 1000)
+		Data.Lighting 		= false
+		
+		Data.AngleVelX			= math.Clamp(Data.AngleVelX, 500, 500)
+		Data.AngleVelY			= math.Clamp(Data.AngleVelY, 500, 500)
+		Data.AngleVelZ			= math.Clamp(Data.AngleVelZ, 500, 500)
+		Data.StickLifeTime		= math.Clamp(Data.StickLifeTime, 0.01, 10)
+		Data.StickStartSize		= math.Clamp(Data.StickStartSize, 0, 100)
+		Data.StickEndSize		= math.Clamp(Data.StickEndSize, 0, 100)
+		Data.StickStartAlpha	= math.Clamp(Data.StickStartAlpha, 0, 255)
+		Data.StickEndAlpha		= math.Clamp(Data.StickEndAlpha, 0, 255)
+		
+	end
+	
+	return Data
+end
+
+local function SetValues(Ent, Data)
+	if (type(Data) == "table") then
+		local PMTable = Ent:GetTable()
+		
+		PMTable:SetDelay(Data.Delay)
+		PMTable:SetToggle(Data.Toggle)
+		
+		PMTable:SetVelocity(Data.Velocity)
+		PMTable:SetSpread(Data.Spread)
+		PMTable:SetNumber(Data.Number)
+		PMTable:SetDieTime(Data.DieTime)
+		PMTable:SetStartAlpha(Data.StartAlpha)
+		PMTable:SetEndAlpha(Data.EndAlpha)
+		PMTable:SetStartSize(Data.StartSize)
+		PMTable:SetEndSize(Data.EndSize)
+		PMTable:SetStartLength(Data.StartLength)
+		PMTable:SetEndLength(Data.EndLength)
+		PMTable:SetRoll(Data.Roll)
+		PMTable:SetRollDelta(Data.RollDelta)
+		PMTable:SetAirResistance(Data.AirResistance)
+		PMTable:SetBounce(Data.Bounce)
+		PMTable:SetGravity(Data.Gravity)
+		PMTable:SetCollide(Data.Collide)
+		PMTable:SetLighting(Data.Lighting)
+		PMTable:SetSliding(Data.Sliding)
+		PMTable:SetColor1(Data.R1, Data.G1, Data.B1)
+		PMTable:SetColor2(Data.R2, Data.G2, Data.B2)
+		PMTable:SetRandom(Data.Random)
+		PMTable:SetMaterial(Data.Material)
+		
+		PMTable:Set3D(Data._3D)
+		PMTable:SetAlign(Data.Align)
+		PMTable:SetStick(Data.Stick)
+		PMTable:SetDoubleSided(Data.DoubleSided)
+		PMTable:SetAngleVel(Data.AngleVelX, Data.AngleVelY, Data.AngleVelZ)
+		PMTable:SetStickLifeTime(Data.StickLifeTime)
+		PMTable:SetStickStartSize(Data.StickStartSize)
+		PMTable:SetStickEndSize(Data.StickEndSize)
+		PMTable:SetStickStartAlpha(Data.StickStartAlpha)
+		PMTable:SetStickEndAlpha(Data.StickEndAlpha)
+	end
+	
+	-- duplicator.StoreEntityModifier(Ent, "particle", Data)
+end
+-- duplicator.RegisterEntityModifier("particle", SetValues)
+
+function TOOL:LeftClick(Trace)
+	if (self:GetClientNumber("gun") == 1) then return false end
+	if (Trace.Entity) and (Trace.Entity:IsPlayer()) then return false end
+	if (SERVER) and not (util.IsValidPhysicsObject(Trace.Entity, Trace.PhysicsBone)) then return false end
+	if (CLIENT) then return true end
+	
+	local Ply = self:GetOwner()
+	local Data = self:GetValues()
+	
+	
+	// We shot an existing particle maker - just change its values
+	if (Trace.Entity:IsValid()) and (Trace.Entity:GetClass() == "gmod_particlemaker") and (Trace.Entity:GetPlayer() == Ply) then
+		SetValues(Trace.Entity, Data)
+		DoPropSpawnedEffect(Trace.Entity)
+		return true
+	end
+	
+	if (!self:GetSWEP():CheckLimit("particles")) then return false end
+	
+	local ParticleMaker = MakeParticle(Ply, Trace.HitPos, Data)
+	local Angle = Trace.HitNormal:Angle()
+		Angle:RotateAroundAxis(Angle:Right(), -90)
+	ParticleMaker:SetAngles(Angle)
+	
+	local PhysObj = ParticleMaker:GetPhysicsObject()
+	local Weld
+	if (Trace.Entity:IsValid()) and (self:GetClientNumber("weld") == 1) then
+		Weld = constraint.Weld(ParticleMaker, Trace.Entity, 0, Trace.PhysicsBone, 0, 0, true)
+		
+		PhysObj:EnableCollisions(false)
+		ParticleMaker.nocollide = true
+	end
+	PhysObj:EnableMotion(false)
+	
+	undo.Create("particle")
+		undo.AddEntity(ParticleMaker)
+		undo.AddEntity(Weld)
+		undo.SetPlayer(Ply)
+	undo.Finish()
+	
+	return true
+
+end
+
+function TOOL:RightClick(Trace)
+	if (Trace.Entity) and (Trace.Entity:IsPlayer()) then return false end
+	if (SERVER) and not (util.IsValidPhysicsObject(Trace.Entity, Trace.PhysicsBone)) then return false end
+	if (CLIENT) then return true end
+	
+	if (Trace.Entity:IsValid()) and (Trace.Entity:GetClass() == "gmod_particlemaker") then
+		local Data = self:GetNetworkedValues(Trace.Entity)
+		
+		for k,v in pairs(Data) do
+			local Command = "particle_" .. string.lower(k)
+			if (ConVarExists(Command)) then
+				self:GetOwner():ConCommand(Command .. " " .. v)
+			end
+		end
+		
+		return true
+	end
+end
+
+function TOOL:Holster()
+	local Owner = self:GetOwner()
+	
+	if (Owner.ParticleMaker) and (Owner.ParticleMaker:IsValid()) then
+		Owner.ParticleMaker:Remove()
+		Owner.ParticleMaker = nil
+	end
+end
+
+if (SERVER) then
+
+	function TOOL:Think()
+		if (self:GetClientNumber("gun") == 1) then
+			local Owner = self:GetOwner()
+			
+			if (Owner:KeyDown(IN_ATTACK)) then
+				
+				if (not Owner.ParticleMaker) then
+					
+					local Data = self:GetValues()
+					local ParticleMaker = MakeParticle(Owner, Vector(0,0,0), Data)
+					
+					ParticleMaker:SetNetworkedEntity("Player", Owner)
+					ParticleMaker:SetNetworkedBool("Traceline", self:GetClientNumber("trace") == 1)
+					Owner.ParticleMaker = ParticleMaker
+					ParticleMaker:SetOn(true)
+				end
+			else
+				if (Owner.ParticleMaker) and (Owner.ParticleMaker:IsValid()) then
+					Owner.ParticleMaker:Remove()
+					Owner.ParticleMaker = nil
+				end
+			end
+		end
+	end
+
+	function MakeParticle(Ply, Pos, Data)
+		
+		if (!Ply:CheckLimit("particles")) and (Ply:GetConVarNumber("particle_gun") == 0) then return nil end
+		
+		local ParticleMaker = ents.Create("gmod_particlemaker")
+		if (!ParticleMaker:IsValid()) then return false end
+		
+		ParticleMaker:SetPos(Pos)
+		ParticleMaker:Spawn()
+		
+		ParticleMaker:SetPlayer(Ply)
+		SetValues(ParticleMaker, Data)
+		
+		numpad.OnDown(Ply, Data.Key, "Particles_On", ParticleMaker)
+		numpad.OnUp(Ply, Data.Key, "Particles_Off", ParticleMaker)
+		
+		
+		--[[local Table = {
+			Key				= Key,
+			Delay			= Delay,
+			Toggle			= Toggle,
+			Velocity		= Velocity,
+			Ply				= Ply,
+			Spread			= Spread,
+			Number			= Number,
+			DieTime			= DieTime,
+			StartAlpha		= StartAlpha,
+			EndAlpha		= EndAlpha,
+			StartSize		= StartSize,
+			EndSize			= EndSize,
+			StartLength		= StartLength,
+			EndLength		= EndLength,
+			Roll			= Roll,
+			RollDelta		= RollDelta,
+			AirResistance	= AirResistance,
+			Bounce			= Bounce,
+			Gravity			= Gravity,
+			Lighting		= Lighting,
+			Sliding			= Sliding,
+			R1				= R1,
+			G1				= G1,
+			B1				= B1,
+			R2				= R2,
+			G2				= G2,
+			B2				= B2,
+			Random			= Random,
+			Material		= Material,
+			_3D				= _3D,
+			Align			= Align,
+			Stick			= Stick,
+			DoubleSided		= DoubleSided,
+			AngleVelX		= AngleVelX,
+			AngleVelY		= AngleVelY,
+			AngleVelZ		= AngleVelZ,
+			StickLifeTime	= StickLifeTime,
+			StickStartSize	= StickStartSize,
+			StickEndSize	= StickEndSize,
+			StickStartAlpha	= StickStartAlpha,
+			StickEndAlpha	= StickEndAlpha			
+			}
+		
+		table.Merge(ParticleMaker:GetTable(), Table)]]
+		
+		
+		if (Pos != Vector(0,0,0)) then
+			DoPropSpawnedEffect(ParticleMaker)
+		end
+		
+		Ply:AddCount("particles", ParticleMaker)
+		Ply:AddCleanup("particles", ParticleMaker)
+		
+		return ParticleMaker
+		
+	end
+
+end
+
+function TOOL.BuildCPanel(CPanel)
+
+	// MAIN HEADER
+	CPanel:AddControl("Header", { Text = "#Tool_particle_name", Description = "#Tool_particle_desc" })
+	
+	// Presets
+	local params = { Label = "Presets", MenuButton = 1, Folder = "article", Options = {}, CVars = {} }
+		
+		params.Options.default = {}
+		for k,v in pairs(ConVars) do
+			params.Options.default[k]= v
+			table.insert(params.CVars, k)
+		end
+		
+	CPanel:AddControl("ComboBox", params)
+	
+	// Numpad
+	CPanel:AddControl("Numpad", { Label = "Make Particles Key", Command = "particle_key", ButtonSize = 22 })
+	
+	// Color 1
+	CPanel:AddControl("Color", {	Label = "Color 1", 
+									Red = "particle_color1_r", 
+									Green = "particle_color1_g", 
+									Blue = "particle_color1_b", 
+									ShowAlpha = 0, 
+									ShowHSV = 1, 
+									ShowRGB = 1, 
+									Multiplier = 255 })
+	
+	// Color 2
+	CPanel:AddControl("Color", {	Label = "Color 2", 
+									Red = "particle_color2_r", 
+									Green = "particle_color2_g", 
+									Blue = "particle_color2_b", 
+									ShowAlpha = 0, 
+									ShowHSV = 1, 
+									ShowRGB = 1, 
+									Multiplier = 255 })
+	
+	
+	// Material textbox
+	CPanel:AddControl("TextBox",  {Label		= "Material",
+									Command 	= "particle_material" }	)
+	
+	// Material gallery
+	local params = { Label = "Material Gallery", Height = 96, Width = 96, Rows = 2, Stretch = 1, Options = {}, CVars = {} }
+	
+	local File = file.Read("Particle Materials.txt")
+	if (File != nil) then
+		local Mats = string.Explode("\n", File)
+		for k,v in pairs(Mats) do
+			params.Options[k]= { Material = v, particle_material = v }
+		end
+	else
+		params.Options[1]= { Material = "effects/fire_cloud1", particle_material = "effects/fire_cloud1" }
+		params.Options[2]= { Material = "effects/fire_cloud2", particle_material = "effects/fire_cloud2" }
+		params.Options[3]= { Material = "effects/blood_core", particle_material = "effects/blood_core" }
+		params.Options[4]= { Material = "effects/blueflare1", particle_material = "effects/blueflare1" }
+		params.Options[5]= { Material = "effects/bluemuzzle", particle_material = "effects/bluemuzzle" }
+		params.Options[6]= { Material = "effects/fleck_glass1", particle_material = "effects/fleck_glass1" }
+		params.Options[7]= { Material = "effects/fleck_glass2", particle_material = "effects/fleck_glass2" }
+		params.Options[8]= { Material = "effects/fleck_glass3", particle_material = "effects/fleck_glass3" }
+		params.Options[9]= { Material = "effects/rollerglow", particle_material = "effects/rollerglow" }
+		params.Options[10]= { Material = "effects/spark", particle_material = "effects/spark" }
+		params.Options[11]= { Material = "sprites/strider_blackball", particle_material = "sprites/strider_blackball" }
+		params.Options[12]= { Material = "shadertest/eyeball", particle_material = "shadertest/eyeball" }
+
+	end
+	
+	table.insert(params.CVars, "particle_material")
+	CPanel:AddControl("MaterialGallery", params)
+	
+	//  Weld to props?
+	CPanel:AddControl("Checkbox", { Label = "Weld to props", Command = "particle_weld" })
+	
+	// Shoot through the gun
+	CPanel:AddControl("Checkbox", { Label = "Fire directly from the STool", Command = "particle_gun" })
+	
+	// Use a trace
+	CPanel:AddControl("Checkbox", { Label = "Use traceline hit position", Command = "particle_trace" })
+	
+	// Random color
+	CPanel:AddControl("Checkbox", { Label = "Random color between 1 and 2", Command = "particle_color_random" })
+	
+	// Toggle
+	CPanel:AddControl("Checkbox", { Label = "Toggle State", Command = "particle_toggle" })
+	
+	// Fire delay
+	CPanel:AddControl("Slider",  { Label	= "Fire Delay",
+									Type	= "Float",
+									Min		= 0.001,
+									Max		= 10,
+									Command = "particle_delay" })
+	
+	// Number particles
+	CPanel:AddControl("Slider",  { Label	= "Number Particles",
+									Type	= "Integer",
+									Min		= 1,
+									Max		= 10,
+									Command = "particle_number" })
+	
+	// Velocity
+	CPanel:AddControl("Slider",  { Label	= "Velocity",
+									Type	= "Float",
+									Min		= 1,
+									Max		= 10000,
+									Command = "particle_velocity" })
+	
+	// Spread
+	CPanel:AddControl("Slider",  { Label	= "Spread",
+									Type	= "Float",
+									Min		= 0,
+									Max		= 360,
+									Command = "particle_spread" })
+	
+	// Die time
+	CPanel:AddControl("Slider",  { Label	= "Die Time",
+									Type	= "Float",
+									Min		= 1,
+									Max		= 10,
+									Command = "particle_dietime" })
+	
+	// Start alpha
+	CPanel:AddControl("Slider",  { Label	= "Start Alpha",
+									Type	= "Float",
+									Min		= 0,
+									Max		= 255,
+									Command = "particle_startalpha" })
+	
+	// End alpha
+	CPanel:AddControl("Slider",  { Label	= "End Alpha",
+									Type	= "Float",
+									Min		= 0,
+									Max		= 255,
+									Command = "particle_endalpha" })
+	
+	// Start size
+	CPanel:AddControl("Slider",  { Label	= "Start Size",
+									Type	= "Float",
+									Min		= 0,
+									Max		= 100,
+									Command = "particle_startsize" })
+	
+	// End size
+	CPanel:AddControl("Slider",  { Label	= "End Size",
+									Type	= "Float",
+									Min		= 0,
+									Max		= 100,
+									Command = "particle_endsize" })
+	
+	// Start length
+	CPanel:AddControl("Slider",  { Label	= "Start Length",
+									Type	= "Float",
+									Min		= 0,
+									Max		= 100,
+									Command = "particle_startlength" })
+	
+	// End length
+	CPanel:AddControl("Slider",  { Label	= "End Length",
+									Type	= "Float",
+									Min		= 0,
+									Max		= 100,
+									Command = "particle_endlength" })
+	
+	// Roll
+	CPanel:AddControl("Slider",  { Label	= "Random Roll Speed",
+									Type	= "Float",
+									Min		= 0,
+									Max		= 10,
+									Command = "particle_roll" })
+	
+	// Roll delta
+	CPanel:AddControl("Slider",  { Label	= "Roll Delta",
+									Type	= "Float",
+									Min		= -10,
+									Max		= 10,
+									Command = "particle_rolldelta" })
+	
+	// Air resistance
+	CPanel:AddControl("Slider",  { Label	= "Air Resistance",
+									Type	= "Float",
+									Min		= 0,
+									Max		= 1000,
+									Command = "particle_airresistance" })
+	
+	// Bounce
+	CPanel:AddControl("Slider",  { Label	= "Bounce",
+									Type	= "Float",
+									Min		= 0,
+									Max		= 10,
+									Command = "particle_bounce" })
+	
+	// Gravity
+	CPanel:AddControl("Slider",  { Label	= "Gravity Z",
+									Type	= "Float",
+									Min		= -1000,
+									Max		= 1000,
+									Command = "particle_gravity" })
+	
+	// Collision
+	CPanel:AddControl("Checkbox", { Label = "Collide", Command = "particle_collide" })
+	
+	// Lighting
+	CPanel:AddControl("Checkbox", { Label = "Lighting", Command = "particle_lighting" })
+	
+	// Slide
+	CPanel:AddControl("Checkbox", { Label = "Sliding", Command = "particle_sliding", Description = "Disables stick and align, Collision must be enabled." })
+	
+	
+	// 3D HEADER
+	CPanel:AddControl("Header", { Text = "3D Controls" })
+	
+	// Toggle 3D
+	CPanel:AddControl("Checkbox", { Label = "3D", Command = "particle_3d" })
+	
+	// Align
+	CPanel:AddControl("Checkbox", { Label = "Align to surface", Command = "particle_align", Description = "Stick to surface & 3D must be enabled." })
+	
+	// Stick
+	CPanel:AddControl("Checkbox", { Label = "Stick to surface", Command = "particle_stick", Description = "3D must be enabled." })
+	
+	// Double sided
+	CPanel:AddControl("Checkbox", { Label = "Double sided (2 faces)", Command = "particle_doublesided", Description = "3D must be enabled." })
+	
+	// Angle velocity X
+	CPanel:AddControl("Slider",  { Label	= "Angle Velocity X",
+									Type	= "Float",
+									Min		= -500,
+									Max		= 500,
+									Command = "particle_anglevelx" })
+	
+	// Angle velocity Y
+	CPanel:AddControl("Slider",  { Label	= "Angle Velocity Y",
+									Type	= "Float",
+									Min		= -500,
+									Max		= 500,
+									Command = "particle_anglevely" })
+	
+	// Angle velocity Z
+	CPanel:AddControl("Slider",  { Label	= "Angle Velocity Z",
+									Type	= "Float",
+									Min		= -500,
+									Max		= 500,
+									Command = "particle_anglevelz" })
+	
+	// Stick lifetime
+	CPanel:AddControl("Slider",  { Label	= "Stick Lifetime",
+									Type	= "Float",
+									Min		= 0.01,
+									Max		= 10,
+									Command = "particle_sticklifetime" })
+	
+	// Stick start size
+	CPanel:AddControl("Slider",  { Label	= "Stick Start Size",
+									Type	= "Float",
+									Min		= 0,
+									Max		= 100,
+									Command = "particle_stickstartsize" })
+	
+	// Stick end size
+	CPanel:AddControl("Slider",  { Label	= "Stick End Size",
+									Type	= "Float",
+									Min		= 0,
+									Max		= 100,
+									Command = "particle_stickendsize" })
+	
+	// Stick start alpha
+	CPanel:AddControl("Slider",  { Label	= "Stick Start Alpha",
+									Type	= "Float",
+									Min		= 0,
+									Max		= 255,
+									Command = "particle_stickstartalpha" })
+	
+	// Stick end alpha
+	CPanel:AddControl("Slider",  { Label	= "Stick End Alpha",
+									Type	= "Float",
+									Min		= 0,
+									Max		= 255,
+									Command = "particle_stickendalpha" })
+	
+	// Check if wire exists
+	if not (Wire_Render) and not (WireAddon) then return end
+	
+	// WIRE HEADER
+	CPanel:AddControl("Header", { Text = "Wire Inputs" })
+	
+	// Add all checkboxes
+	for k,v in pairs(ConVars) do
+		CPanel:AddControl("Checkbox", { Label = "Wire Input: " .. k, Command = "particle_wire_" .. k })
+	end
+	
+end

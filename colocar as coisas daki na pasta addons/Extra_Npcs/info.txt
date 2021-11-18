@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"extra npc's for the Gmod update"
+	"version"			"1.0"
+	"up_date"			""
+	"author_name"			"Creatmind"
+	"author_email"			"no way i tell you this =P"
+	"author_url"			"what the.....?"
+	"info"				"Wanth some strider, dropship, gunship, and so back to Gmod?"
+	"override"			"0"
+}

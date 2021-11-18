@@ -1,0 +1,14 @@
+"AddonInfo"
+{
+	"name"		"Catmull-Rom Cameras"
+	"version"	"0.5.3"
+	"up_date"	""
+	
+	"author_name"	"Olivier 'LuaPineapple' Hamel"
+	"author_email"	"evilpineapple@cox.net"
+	"author_url"	""
+	
+	"info"		"Cameras with Catmull-Rom interpolation."
+	"icon"		""
+	"hide"		"0"
+}

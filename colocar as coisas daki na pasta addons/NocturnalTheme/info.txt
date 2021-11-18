@@ -1,0 +1,17 @@
+"AddonInfo"
+{
+	"name"		"Nocturnal Derma Skin"
+	"version"	"1.1"
+	"up_date"	"18 Apr 2008"
+	"author_name"	"CelSius (Jippiex2k on facepunch)"
+	"author_email"	""
+	"author_url"	""
+	
+	"info"		"A nice dark Derma skin."
+
+	"override"	"0"
+
+	"GCFRequires"
+	{
+	}
+}

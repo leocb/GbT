@@ -1,0 +1,13 @@
+"AddonInfo"
+{
+	"name"		"TimeGrenade"
+	"version"	"1.0"
+	"up_date"	"09-02-20"
+	"author_name"	"Sakarias88"
+	"author_email"	""
+	"author_url"	"N/A"
+	"info"		"It's a time grenade"
+
+	"override"	"0"
+	
+}

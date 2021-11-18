@@ -1,0 +1,59 @@
+Version 2.0
+- Features wire support
+- Added double sided 3D mode, makes the particle show both sides (no invisible side)
+- Fixed 3D Angle Velocity not working correctly
+- 3D align now aligns (almost) correctly on the surface
+- Right click now gets the current settings of the hit particle maker
+- Left click now welds to props on default
+- Added a weld option
+- Cleaner & more efficent code, re-wrote around 75% of it
+- Clients now download the material .txt file
+- Fixed 3D mode (fo-sho?)
+WARNING: Version 2.0 [b]resets[/b] the presets, because they are not supported!
+
+Version 1.61 BETA
+- Fixed 3D mode not working correctly
+
+Version 1.6 BETA
+- Unlimited particles! Fixed overflow error!
+- Replaced "Roll" with "Random Roll"
+- Roll delta now have negative value
+- Now appears in correct alphabetical order in spawnmenu
+- Added "particle_clamp" convar for multiplayer
+
+Version 1.5
+- Added outline on the SENT
+- Added name to the SENT
+- Added spawn effect
+- Fixed particles continue to spawn if you switch weapon while firing in gun mode
+- Added a sliding mode (Thanks Suicidal.Banana!)
+
+Version 1.4
+- Fixed Z spread
+- Fixed particles angles on 3D mode with gun mode
+- Moved checkboxes under material gallery
+- Added a traceline mode
+- Removed some unnecessary code
+
+Version 1.3
+- Fixed particles not moving with 0 spread
+- Added a gun mode so you can shoot with the gun
+
+Version 1.2
+- Removed debug message
+- Fixed 3D angle velocity not working
+- Spread is now a circle instead of a square
+- Added a "Particle Materials.txt" file where you can add your own materials in the data folder
+- Materials are now sorted after the order in the file
+- Added 2 color options for random colors
+
+
+Version 1.1
+- Added 3D controls
+- Added sticking to surface controls
+- Added number of particles per shot
+- Added some materials
+- Changed default maxlimit to 1
+
+Version 1
+- Release

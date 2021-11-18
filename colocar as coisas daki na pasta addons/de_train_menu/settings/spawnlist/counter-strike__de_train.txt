@@ -1,0 +1,306 @@
+"112"
+{
+	"Information"
+	{
+		"name"		"Counter-Strike: de_train"
+	}
+	"Entries"
+	{
+		"1"
+		{
+			"model"		"models/props/de_train/acunit1.mdl"
+		}
+		"2"
+		{
+			"model"		"models/props/de_train/acunit2.mdl"
+		}
+		"3"
+		{
+			"model"		"models/props/de_train/ammo_can_01.mdl"
+		}
+		"4"
+		{
+			"model"		"models/props/de_train/barrel.mdl"
+		}
+		"5"
+		{
+			"model"		"models/props/de_train/biohazardtank.mdl"
+		}
+		"6"
+		{
+			"model"		"models/props/de_train/biohazardtank_dm_01.mdl"
+		}
+		"7"
+		{
+			"model"		"models/props/de_train/biohazardtank_dm_02.mdl"
+		}
+		"8"
+		{
+			"model"		"models/props/de_train/biohazardtank_dm_03.mdl"
+		}
+		"9"
+		{
+			"model"		"models/props/de_train/biohazardtank_dm_04.mdl"
+		}
+		"10"
+		{
+			"model"		"models/props/de_train/biohazardtank_dm_05.mdl"
+		}
+		"11"
+		{
+			"model"		"models/props/de_train/biohazardtank_dm_06.mdl"
+		}
+		"12"
+		{
+			"model"		"models/props/de_train/biohazardtank_dm_07.mdl"
+		}
+		"13"
+		{
+			"model"		"models/props/de_train/biohazardtank_dm_08.mdl"
+		}
+		"14"
+		{
+			"model"		"models/props/de_train/biohazardtank_dm_09.mdl"
+		}
+		"15"
+		{
+			"model"		"models/props/de_train/biohazardtank_dm_10.mdl"
+		}
+		"16"
+		{
+			"model"		"models/props/de_train/biohazardtank_dm_11.mdl"
+		}
+		"17"
+		{
+			"model"		"models/props/de_train/boxcar.mdl"
+		}
+		"18"
+		{
+			"model"		"models/props/de_train/boxcar2.mdl"
+		}
+		"19"
+		{
+			"model"		"models/props/de_train/bush.mdl"
+		}
+		"20"
+		{
+			"model"		"models/props/de_train/bush2.mdl"
+		}
+		"21"
+		{
+			"model"		"models/props/de_train/chainlinkgate.mdl"
+		}
+		"22"
+		{
+			"model"		"models/props/de_train/de_train_doorhandle_01.mdl"
+		}
+		"23"
+		{
+			"model"		"models/props/de_train/de_train_drainage_pipe.mdl"
+		}
+		"24"
+		{
+			"model"		"models/props/de_train/de_train_floodlights_01.mdl"
+		}
+		"25"
+		{
+			"model"		"models/props/de_train/de_train_gutter_01.mdl"
+		}
+		"26"
+		{
+			"model"		"models/props/de_train/de_train_horizontalcoolingtank.mdl"
+		}
+		"27"
+		{
+			"model"		"models/props/de_train/de_train_ibeam_01.mdl"
+		}
+		"28"
+		{
+			"model"		"models/props/de_train/de_train_ibeam_02.mdl"
+		}
+		"29"
+		{
+			"model"		"models/props/de_train/de_train_ibeam_03.mdl"
+		}
+		"30"
+		{
+			"model"		"models/props/de_train/de_train_ibeams_01.mdl"
+		}
+		"31"
+		{
+			"model"		"models/props/de_train/de_train_ibeams_02.mdl"
+		}
+		"32"
+		{
+			"model"		"models/props/de_train/de_train_roofbeams_01.mdl"
+		}
+		"33"
+		{
+			"model"		"models/props/de_train/de_train_securityguard.mdl"
+		}
+		"34"
+		{
+			"model"		"models/props/de_train/de_train_signalbox_01.mdl"
+		}
+		"35"
+		{
+			"model"		"models/props/de_train/de_train_truss02d.mdl"
+		}
+		"36"
+		{
+			"model"		"models/props/de_train/de_train_tunnelbeams_01.mdl"
+		}
+		"37"
+		{
+			"model"		"models/props/de_train/de_train_windowframe_01.mdl"
+		}
+		"38"
+		{
+			"model"		"models/props/de_train/de_train_windowframe_02.mdl"
+		}
+		"39"
+		{
+			"model"		"models/props/de_train/de_train_windowframe_03.mdl"
+		}
+		"40"
+		{
+			"model"		"models/props/de_train/de_train_windowframe_04.mdl"
+		}
+		"41"
+		{
+			"model"		"models/props/de_train/diesel.mdl"
+		}
+		"42"
+		{
+			"model"		"models/props/de_train/flatcar.mdl"
+		}
+		"43"
+		{
+			"model"		"models/props/de_train/floodlight.mdl"
+		}
+		"44"
+		{
+			"model"		"models/props/de_train/handrail_alley-stairs.mdl"
+		}
+		"45"
+		{
+			"model"		"models/props/de_train/handrail_alley-upperdeck.mdl"
+		}
+		"46"
+		{
+			"model"		"models/props/de_train/handrail_singlespan_128.mdl"
+		}
+		"47"
+		{
+			"model"		"models/props/de_train/handrail_tower-lower.mdl"
+		}
+		"48"
+		{
+			"model"		"models/props/de_train/handrail_tower-upper.mdl"
+		}
+		"49"
+		{
+			"model"		"models/props/de_train/handrail_tspawn-balcony.mdl"
+		}
+		"50"
+		{
+			"model"		"models/props/de_train/handrail_yarda-sniperspot.mdl"
+		}
+		"51"
+		{
+			"model"		"models/props/de_train/handrail_yardb-catwalk.mdl"
+		}
+		"52"
+		{
+			"model"		"models/props/de_train/handrail_yardb-lower.mdl"
+		}
+		"53"
+		{
+			"model"		"models/props/de_train/ladderaluminium.mdl"
+		}
+		"54"
+		{
+			"model"		"models/props/de_train/light_inset.mdl"
+		}
+		"55"
+		{
+			"model"		"models/props/de_train/light_security.mdl"
+		}
+		"56"
+		{
+			"model"		"models/props/de_train/lightwindowsa.mdl"
+		}
+		"57"
+		{
+			"model"		"models/props/de_train/lightwindowsb.mdl"
+		}
+		"58"
+		{
+			"model"		"models/props/de_train/lockerbench.mdl"
+		}
+		"59"
+		{
+			"model"		"models/props/de_train/lockers001a.mdl"
+		}
+		"60"
+		{
+			"model"		"models/props/de_train/lockers_long.mdl"
+		}
+		"61"
+		{
+			"model"		"models/props/de_train/pallet_barrels.mdl"
+		}
+		"62"
+		{
+			"model"		"models/props/de_train/processor.mdl"
+		}
+		"63"
+		{
+			"model"		"models/props/de_train/processor_nobase.mdl"
+		}
+		"64"
+		{
+			"model"		"models/props/de_train/railroadtracks128.mdl"
+		}
+		"65"
+		{
+			"model"		"models/props/de_train/railroadtracks256.mdl"
+		}
+		"66"
+		{
+			"model"		"models/props/de_train/railroadtrackslong.mdl"
+		}
+		"67"
+		{
+			"model"		"models/props/de_train/tanker.mdl"
+		}
+		"68"
+		{
+			"model"		"models/props/de_train/train_wheels.mdl"
+		}
+		"69"
+		{
+			"model"		"models/props/de_train/trainbumperpost.mdl"
+		}
+		"70"
+		{
+			"model"		"models/props/de_train/tunnelarch.mdl"
+		}
+		"71"
+		{
+			"model"		"models/props/de_train/utility_truck.mdl"
+		}
+		"72"
+		{
+			"model"		"models/props/de_train/utility_truck_windows.mdl"
+		}
+		"73"
+		{
+			"model"		"models/props/de_train/windowsfront.mdl"
+		}
+		"74"
+		{
+			"model"		"models/props/de_train/windowsside.mdl"
+		}
+	}
+}

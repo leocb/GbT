@@ -1,0 +1,7 @@
+"UnlitGeneric"
+{
+	"$basetexture" "achievements/paradox"
+	"$nolod" 1
+	"$vertexalpha" 1
+	"$vertexcolor" 1
+}

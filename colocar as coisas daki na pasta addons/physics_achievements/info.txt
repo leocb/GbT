@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"		"Physics Acheivements"
+	"version"	"2"
+	"up_date"	"10th August 2008"
+	"author_name"	"1/4 Life"
+	"author_email"	"onequarterlife2@gmail.com"
+	"author_url"	"www.smod-tactical.com"
+	
+	"info"		"Additional Physics Acheivements for Garrysmod."
+}

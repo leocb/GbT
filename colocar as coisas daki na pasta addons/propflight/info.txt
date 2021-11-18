@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name"			"Flying Props"
+	"version"		"1.0"
+	"up_date"		"26th Feb 2009"
+	"author_name"	"Studentloon"
+	"author_email"	""
+	"author_url"	""
+	"info"			"Take to the skies in quite literally anything."
+}

@@ -1,0 +1,15 @@
+"AddonInfo"
+{
+	"name"		"Stacker STool"
+	"version"	"2.2"
+	"up_date"	"19th January 2007"
+	"author_name"	"-"
+	"author_email"	"-"
+	"author_url"	"-"
+	
+	"info"		"Adds A Stacker STool To The Game"
+
+
+
+	"override"	"0"
+}

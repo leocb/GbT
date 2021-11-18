@@ -1,0 +1,11 @@
+"AddonInfo"
+{
+	"name"				"SmartSnap"
+	"version"			"0.9.5"
+	"up_date"			""
+	"author_name"			"Syranide"
+	"author_email"			"public@syranide.com"
+	"author_url"			"http://www.syranide.com"
+	"info"				"A seamless tool for placing objects with pinpoint accuracy"
+	"override"			"0"
+}

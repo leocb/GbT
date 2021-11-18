@@ -1,0 +1,18 @@
+"lang" 
+{ 
+	"Language" "English"
+	
+	"Tokens" 
+	{ 
+
+		"Climbable Rope"						"Climbable Rope"
+			"Tool_climbrope_name"		"Climbable Rope Tool"
+			"Tool_climbrope_desc"		"Creates a climbable Rope"
+			"Tool_climbrope_0"			"Primary: Set Two Points, Secondary:Create Hanging Rope"
+			"Tool_climbrope_1"			"Set Second Point"
+			"Tool_climbrope_set"		"Max Length (Hanging Rope Only):"
+			"Tool_climbrope_set_desc"		"Create a Climbable Rope"
+			"Undone_climbrope"			"Removed Climbable Rope"
+
+	}
+}
