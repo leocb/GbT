@@ -836,3 +836,1615 @@ reading d:\leo\games\steam e afiliados\-==mapas==-\gbt_field_v4.prt
 2669 portalclusters
 8584 numportals
 0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8.
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading f:\gbt-main\hammer files\gbt_field_v4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1396 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing f:\gbt-main\hammer files\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (4233447 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3170 texinfos to 1472
+Reduced 239 texdatas to 190 (10600 bytes to 8562)
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+4 seconds elapsed
+
+
+
+16 threads
+reading f:\gbt-main\hammer files\gbt_field_v4.bsp
+reading f:\gbt-main\hammer files\gbt_field_v4.prt
+2691 portalclusters
+8759 numportals
+0...1...2...3...4...5...6...7...8...9...100
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\gbt-main\hammer files\gbt_field_v4.bsp
+PREP OK
+No vis information, direct lighting only.
+12848 faces
+33 degenerate faces
+14471990 square feet [2083966592.00 square inches]
+58 Displacements
+261728 Square Feet [37688884.00 Square Inches]
+102 direct lights
+0
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading f:\gbt-main\hammer files\gbt_field_v4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1396 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing f:\gbt-main\hammer files\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (2) (4233447 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3170 texinfos to 1472
+Reduced 239 texdatas to 190 (10600 bytes to 8562)
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+9 seconds elapsed
+
+
+
+16 threads
+reading f:\gbt-main\hammer files\gbt_field_v4.bsp
+reading f:\gbt-main\hammer files\gbt_field_v4.prt
+2691 portalclusters
+8759 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.1645 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 121/4096         5808/196608   ( 3.0%) 
+brushes               2442/16384       29304/196608   (14.9%) 
+brushsides           22107/163840     176856/1310720  (13.5%) 
+planes               17716/65536      354320/1310720  (27.0%) 
+vertexes             19783/65536      237396/786432   (30.2%) 
+nodes                 6044/65536      193408/2097152  ( 9.2%) 
+texinfos              1472/12288      105984/884736   (12.0%) 
+texdata                190/2048         6080/65536    ( 9.3%) 
+dispinfos               58/0           10208/0        ( 0.0%) 
+disp_verts           16762/0          335240/0        ( 0.0%) 
+disp_tris            29696/0           59392/0        ( 0.0%) 
+disp_lmsamples      867537/0          867537/0        ( 0.0%) 
+faces                12848/65536      719488/3670016  (19.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5476/65536      306656/3670016  ( 8.4%) 
+leaves                6166/65536      197312/2097152  ( 9.4%) 
+leaffaces            15565/65536       31130/131072   (23.8%) 
+leafbrushes           5556/65536       11112/131072   ( 8.5%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            83043/512000     332172/2048000  (16.2%) 
+edges                47386/256000     189544/1024000  (18.5%) 
+LDR worldlights        102/8192         8976/720896   ( 1.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips           1289/32768       12890/327680   ( 3.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         21150/65536       42300/131072   (32.3%) 
+cubemapsamples          57/1024          912/16384    ( 5.6%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]    37273852/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      114972/393216   (29.2%) 
+LDR ambient table     6166/65536       24664/262144   ( 9.4%) 
+HDR ambient table     6166/65536       24664/262144   ( 9.4%) 
+LDR leaf ambient     27344/65536      765632/1835008  (41.7%) 
+HDR leaf ambient      6166/65536      172648/1835008  ( 9.4%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14460    ( 0.0%) 
+pakfile               [variable]     5005420/0        ( 0.0%) 
+physics               [variable]     4233447/4194304  (100.9%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 35196
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+3 minutes, 43 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\gbt-main\hammer files\gbt_field_v4.bsp
+PREP OK
+No vis information, direct lighting only.
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\gbt-main\hammer files\gbt_field_v4.bsp
+PREP OK
+No vis information, direct lighting only.
+12848 faces
+33 degenerate faces
+14471990 square feet [2083966592.00 square inches]
+58 Displacements
+261728 Square Feet [37688884.00 Square Inches]
+102 direct lights
+0
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading f:\gbt-main\hammer files\gbt_field_v4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 1396 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing f:\gbt-main\hammer files\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (4233447 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3170 texinfos to 1472
+Reduced 239 texdatas to 190 (10600 bytes to 8562)
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+4 seconds elapsed
+
+
+
+16 threads
+reading f:\gbt-main\hammer files\gbt_field_v4.bsp
+reading f:\gbt-main\hammer files\gbt_field_v4.prt
+2691 portalclusters
+8759 numportals
+0...1...2...3...4...5...6...7...8...9...100
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading f:\gbt-main\hammer files\gbt_field_v4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/gbt_field_v4/gm_construct/grass_13_wvt_patch
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-2099.00 -2022.00 -59.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 9543.5 -1547.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 9543.5 -1119.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 9543.5 7794.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 10055.5 7366.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8704.0 10240.0 7366.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8552.0 8192.0 -814.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9064.0 8192.0 -814.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8555.0 8192.0 8099.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2100 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (4207552 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3107 texinfos to 1416
+Reduced 241 texdatas to 192 (10680 bytes to 8714)
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+4 seconds elapsed
+
+
+
+16 threads
+reading f:\gbt-main\hammer files\gbt_field_v4.bsp
+reading f:\gbt-main\hammer files\gbt_field_v4.prt
+LoadPortals: couldn't read f:\gbt-main\hammer files\gbt_field_v4.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\gbt-main\hammer files\gbt_field_v4.bsp
+PREP OK
+No vis information, direct lighting only.
+11340 faces
+13 degenerate faces
+7333648 square feet [1056045312.00 square inches]
+58 Displacements
+261728 Square Feet [37688884.00 Square Inches]
+102 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0858 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 103/4096         4944/196608   ( 2.5%) 
+brushes               2399/16384       28788/196608   (14.6%) 
+brushsides           21532/163840     172256/1310720  (13.1%) 
+planes               16556/65536      331120/1310720  (25.3%) 
+vertexes             18062/65536      216744/786432   (27.6%) 
+nodes                 3888/65536      124416/2097152  ( 5.9%) 
+texinfos              1416/12288      101952/884736   (11.5%) 
+texdata                192/2048         6144/65536    ( 9.4%) 
+dispinfos               58/0           10208/0        ( 0.0%) 
+disp_verts           16762/0          335240/0        ( 0.0%) 
+disp_tris            29696/0           59392/0        ( 0.0%) 
+disp_lmsamples     1641275/0         1641275/0        ( 0.0%) 
+faces                11340/65536      635040/3670016  (17.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5337/65536      298872/3670016  ( 8.1%) 
+leaves                3992/65536      127744/2097152  ( 6.1%) 
+leaffaces            13523/65536       27046/131072   (20.6%) 
+leafbrushes           4361/65536        8722/131072   ( 6.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            74549/512000     298196/2048000  (14.6%) 
+edges                43464/256000     173856/1024000  (17.0%) 
+LDR worldlights        102/8192         8976/720896   ( 1.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips           1144/32768       11440/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19080/65536       38160/131072   (29.1%) 
+cubemapsamples          57/1024          912/16384    ( 5.6%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]    38651904/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      109415/393216   (27.8%) 
+LDR ambient table     3992/65536       15968/262144   ( 6.1%) 
+HDR ambient table     3992/65536       15968/262144   ( 6.1%) 
+LDR leaf ambient     20974/65536      587272/1835008  (32.0%) 
+HDR leaf ambient      3992/65536      111776/1835008  ( 6.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14458    ( 0.0%) 
+pakfile               [variable]     5005821/0        ( 0.0%) 
+physics               [variable]     4207552/4194304  (100.3%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 30357
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+21 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading f:\gbt-main\hammer files\gbt_field_v4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/gbt_field_v4/gm_construct/grass_13_wvt_patch
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-2107.00 -1905.00 -59.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 9543.5 -1547.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 9543.5 -1119.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 9543.5 7794.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 10055.5 7366.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8704.0 10240.0 7366.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8552.0 8192.0 -814.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9064.0 8192.0 -814.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8555.0 8192.0 8099.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2100 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (4207504 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3107 texinfos to 1416
+Reduced 241 texdatas to 192 (10680 bytes to 8714)
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+5 seconds elapsed
+
+
+
+16 threads
+reading f:\gbt-main\hammer files\gbt_field_v4.bsp
+reading f:\gbt-main\hammer files\gbt_field_v4.prt
+LoadPortals: couldn't read f:\gbt-main\hammer files\gbt_field_v4.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\gbt-main\hammer files\gbt_field_v4.bsp
+PREP OK
+No vis information, direct lighting only.
+11340 faces
+13 degenerate faces
+7333633 square feet [1056043136.00 square inches]
+58 Displacements
+261720 Square Feet [37687812.00 Square Inches]
+102 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0866 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 103/4096         4944/196608   ( 2.5%) 
+brushes               2399/16384       28788/196608   (14.6%) 
+brushsides           21532/163840     172256/1310720  (13.1%) 
+planes               16556/65536      331120/1310720  (25.3%) 
+vertexes             18046/65536      216552/786432   (27.5%) 
+nodes                 3873/65536      123936/2097152  ( 5.9%) 
+texinfos              1416/12288      101952/884736   (11.5%) 
+texdata                192/2048         6144/65536    ( 9.4%) 
+dispinfos               58/0           10208/0        ( 0.0%) 
+disp_verts           16762/0          335240/0        ( 0.0%) 
+disp_tris            29696/0           59392/0        ( 0.0%) 
+disp_lmsamples     1641275/0         1641275/0        ( 0.0%) 
+faces                11340/65536      635040/3670016  (17.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5337/65536      298872/3670016  ( 8.1%) 
+leaves                3977/65536      127264/2097152  ( 6.1%) 
+leaffaces            13522/65536       27044/131072   (20.6%) 
+leafbrushes           4359/65536        8718/131072   ( 6.7%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            74546/512000     298184/2048000  (14.6%) 
+edges                43462/256000     173848/1024000  (17.0%) 
+LDR worldlights        102/8192         8976/720896   ( 1.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips           1140/32768       11400/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19020/65536       38040/131072   (29.0%) 
+cubemapsamples          57/1024          912/16384    ( 5.6%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]    38650656/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      109415/393216   (27.8%) 
+LDR ambient table     3977/65536       15908/262144   ( 6.1%) 
+HDR ambient table     3977/65536       15908/262144   ( 6.1%) 
+LDR leaf ambient     20867/65536      584276/1835008  (31.8%) 
+HDR leaf ambient      3977/65536      111356/1835008  ( 6.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14272    ( 0.0%) 
+pakfile               [variable]     5005821/0        ( 0.0%) 
+physics               [variable]     4207504/4194304  (100.3%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 30354
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+22 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading f:\gbt-main\hammer files\gbt_field_v4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/gbt_field_v4/gm_construct/grass_13_wvt_patch
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-2114.00 -1886.00 -50.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 9543.5 -1547.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 9543.5 -1119.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 9543.5 7794.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 10055.5 7366.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8704.0 10240.0 7366.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8552.0 8192.0 -814.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9064.0 8192.0 -814.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8555.0 8192.0 8099.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (1)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2100 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (4207504 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3107 texinfos to 1416
+Reduced 241 texdatas to 192 (10680 bytes to 8714)
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+5 seconds elapsed
+
+
+
+16 threads
+reading f:\gbt-main\hammer files\gbt_field_v4.bsp
+reading f:\gbt-main\hammer files\gbt_field_v4.prt
+LoadPortals: couldn't read f:\gbt-main\hammer files\gbt_field_v4.prt
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading f:\gbt-main\hammer files\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/gm_construct/grass_13_wvt_patch
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing f:\gbt-main\hammer files\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (282541 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1749 texinfos to 668
+Reduced 153 texdatas to 129 (6819 bytes to 6033)
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+3 seconds elapsed
+
+
+
+16 threads
+reading f:\gbt-main\hammer files\gbt_field_v4.bsp
+reading f:\gbt-main\hammer files\gbt_field_v4.prt
+ 580 portalclusters
+1435 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 9368 visible clusters (3.91%)
+Total clusters visible: 239766
+Average clusters visible: 413
+Building PAS...
+Average clusters audible: 501
+visdatasize:84274  compressed from 92800
+writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+0 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading f:\gbt-main\hammer files\gbt_field_v4.vmf
+Patching WVT material: maps/gbt_field_v4/gm_construct/grass_13_wvt_patch
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing f:\gbt-main\hammer files\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (282541 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 1749 texinfos to 668
+Reduced 153 texdatas to 129 (6819 bytes to 6033)
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+3 seconds elapsed
+
+
+
+16 threads
+reading f:\gbt-main\hammer files\gbt_field_v4.bsp
+reading f:\gbt-main\hammer files\gbt_field_v4.prt
+ 580 portalclusters
+1435 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 9368 visible clusters (3.91%)
+Total clusters visible: 239766
+Average clusters visible: 413
+Building PAS...
+Average clusters audible: 501
+visdatasize:84274  compressed from 92800
+writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\gbt-main\hammer files\gbt_field_v4.bsp
+PREP OK
+6709 faces
+5 degenerate faces
+12132550 square feet [1747087232.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+6704 patches before subdivision
+439518 patches after subdivision
+102 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 146658356, max 4279
+transfer lists: 1118.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2529984, 2038365, 1236034)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(394695, 230245, 115054)
+Build Patch/Sample Hash Table(s).....Done<0.0811 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 121/4096         5808/196608   ( 3.0%) 
+brushes                687/16384        8244/196608   ( 4.2%) 
+brushsides            5307/163840      42456/1310720  ( 3.2%) 
+planes                6118/65536      122360/1310720  ( 9.3%) 
+vertexes              9805/65536      117660/786432   (15.0%) 
+nodes                 2692/65536       86144/2097152  ( 4.1%) 
+texinfos               668/12288       48096/884736   ( 5.4%) 
+texdata                129/2048         4128/65536    ( 6.3%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 6709/65536      375704/3670016  (10.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1742/65536       97552/3670016  ( 2.7%) 
+leaves                2814/65536       90048/2097152  ( 4.3%) 
+leaffaces             7264/65536       14528/131072   (11.1%) 
+leafbrushes           1683/65536        3366/131072   ( 2.6%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            37233/512000     148932/2048000  ( 7.3%) 
+edges                20783/256000      83132/1024000  ( 8.1%) 
+LDR worldlights        102/8192         8976/720896   ( 1.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            1/32768          12/393216   ( 0.0%) 
+waterstrips            262/32768        2620/327680   ( 0.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4155/65536        8310/131072   ( 6.3%) 
+cubemapsamples          57/1024          912/16384    ( 5.6%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]    34118580/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       84274/16777216 ( 0.5%) 
+entdata               [variable]      115225/393216   (29.3%) 
+LDR ambient table     2814/65536       11256/262144   ( 4.3%) 
+HDR ambient table     2814/65536       11256/262144   ( 4.3%) 
+LDR leaf ambient     10550/65536      295400/1835008  (16.1%) 
+HDR leaf ambient      2814/65536       78792/1835008  ( 4.3%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/13968    ( 0.0%) 
+pakfile               [variable]     4985448/0        ( 0.0%) 
+physics               [variable]      282541/4194304  ( 6.7%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 16690
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+36 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading f:\gbt-main\hammer files\gbt_field_v4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/gbt_field_v4/gm_construct/grass_13_wvt_patch
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2100 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing f:\gbt-main\hammer files\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (4233327 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3201 texinfos to 1466
+Reduced 242 texdatas to 193 (10699 bytes to 8733)
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+5 seconds elapsed
+
+
+
+16 threads
+reading f:\gbt-main\hammer files\gbt_field_v4.bsp
+reading f:\gbt-main\hammer files\gbt_field_v4.prt
+ 826 portalclusters
+2258 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 28944 visible clusters (5.90%)
+Total clusters visible: 490556
+Average clusters visible: 593
+Building PAS...
+Average clusters audible: 749
+visdatasize:167326  compressed from 171808
+writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\gbt-main\hammer files\gbt_field_v4.bsp
+PREP OK
+11569 faces
+14 degenerate faces
+12797267 square feet [1842806400.00 square inches]
+58 Displacements
+261720 Square Feet [37687812.00 Square Inches]
+11555 patches before subdivision
+537899 patches after subdivision
+102 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 209248616, max 4857
+transfer lists: 1596.4 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2380225, 1882306, 1116118)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(535056, 336751, 158567)
+Build Patch/Sample Hash Table(s).....Done<0.1141 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 121/4096         5808/196608   ( 3.0%) 
+brushes               2442/16384       29304/196608   (14.9%) 
+brushsides           22127/163840     177016/1310720  (13.5%) 
+planes               17876/65536      357520/1310720  (27.3%) 
+vertexes             17283/65536      207396/786432   (26.4%) 
+nodes                 3056/65536       97792/2097152  ( 4.7%) 
+texinfos              1466/12288      105552/884736   (11.9%) 
+texdata                193/2048         6176/65536    ( 9.4%) 
+dispinfos               58/0           10208/0        ( 0.0%) 
+disp_verts           16762/0          335240/0        ( 0.0%) 
+disp_tris            29696/0           59392/0        ( 0.0%) 
+disp_lmsamples     1641275/0         1641275/0        ( 0.0%) 
+faces                11569/65536      647864/3670016  (17.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5551/65536      310856/3670016  ( 8.5%) 
+leaves                3178/65536      101696/2097152  ( 4.8%) 
+leaffaces            13704/65536       27408/131072   (20.9%) 
+leafbrushes           4653/65536        9306/131072   ( 7.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            76562/512000     306248/2048000  (15.0%) 
+edges                44473/256000     177892/1024000  (17.4%) 
+LDR worldlights        102/8192         8976/720896   ( 1.2%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips           1152/32768       11520/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19005/65536       38010/131072   (29.0%) 
+cubemapsamples          57/1024          912/16384    ( 5.6%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]    38608280/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      167326/16777216 ( 1.0%) 
+entdata               [variable]      115225/393216   (29.3%) 
+LDR ambient table     3178/65536       12712/262144   ( 4.8%) 
+HDR ambient table     3178/65536       12712/262144   ( 4.8%) 
+LDR leaf ambient     13009/65536      364252/1835008  (19.9%) 
+HDR leaf ambient      3178/65536       88984/1835008  ( 4.8%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14002    ( 0.0%) 
+pakfile               [variable]     5005821/0        ( 0.0%) 
+physics               [variable]     4233327/4194304  (100.9%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 31009
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+1 minute, 34 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading f:\gbt-main\hammer files\gbt_field_v4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/gbt_field_v4/gm_construct/grass_13_wvt_patch
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity prop_static (-1179.00 -1950.00 -323.00) leaked!
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 9543.5 -1547.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 9543.5 -1119.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 9543.5 7794.0)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9216.0 10055.5 7366.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8704.0 10240.0 7366.5)
+Leaf 0 contents: 
+Leaf 1 contents: CONTENTS_SOLID 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8555.0 8192.0 -814.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (9067.0 8192.0 -814.5)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+
+FindPortalSide: Couldn't find a good match for which brush to assign to a portal near (8555.0 8192.0 8099.0)
+Leaf 0 contents: CONTENTS_SOLID 
+Leaf 1 contents: 
+viscontents (node 0 contents ^ node 1 contents): CONTENTS_SOLID 
+This means that none of the brushes in leaf 0 or 1 that touches the portal has CONTENTS_SOLID 
+Check for a huge brush enclosing the coordinates above that has contents CONTENTS_SOLID 
+Candidate brush IDs: 
+
+*** Suppressing further FindPortalSide errors.... ***
+Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2056 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (4235087 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3213 texinfos to 1475
+Reduced 249 texdatas to 197 (10909 bytes to 8849)
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+5 seconds elapsed
+
+
+
+16 threads
+reading f:\gbt-main\hammer files\gbt_field_v4.bsp
+reading f:\gbt-main\hammer files\gbt_field_v4.prt
+LoadPortals: couldn't read f:\gbt-main\hammer files\gbt_field_v4.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\gbt-main\hammer files\gbt_field_v4.bsp
+PREP OK
+No vis information, direct lighting only.
+11638 faces
+14 degenerate faces
+12801690 square feet [1843443328.00 square inches]
+58 Displacements
+261720 Square Feet [37687812.00 Square Inches]
+103 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0862 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 121/4096         5808/196608   ( 3.0%) 
+brushes               2444/16384       29328/196608   (14.9%) 
+brushsides           22141/163840     177128/1310720  (13.5%) 
+planes               17866/65536      357320/1310720  (27.3%) 
+vertexes             18440/65536      221280/786432   (28.1%) 
+nodes                 4106/65536      131392/2097152  ( 6.3%) 
+texinfos              1475/12288      106200/884736   (12.0%) 
+texdata                197/2048         6304/65536    ( 9.6%) 
+dispinfos               58/0           10208/0        ( 0.0%) 
+disp_verts           16762/0          335240/0        ( 0.0%) 
+disp_tris            29696/0           59392/0        ( 0.0%) 
+disp_lmsamples     1641275/0         1641275/0        ( 0.0%) 
+faces                11638/65536      651728/3670016  (17.8%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5598/65536      313488/3670016  ( 8.5%) 
+leaves                4228/65536      135296/2097152  ( 6.5%) 
+leaffaces            13832/65536       27664/131072   (21.1%) 
+leafbrushes           4427/65536        8854/131072   ( 6.8%) 
+areas                    4/1024           32/8192     ( 0.4%) 
+surfedges            76938/512000     307752/2048000  (15.0%) 
+edges                44734/256000     178936/1024000  (17.5%) 
+LDR worldlights        103/8192         9064/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips           1146/32768       11460/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19134/65536       38268/131072   (29.2%) 
+cubemapsamples          57/1024          912/16384    ( 5.6%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]    38654804/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]      115339/393216   (29.3%) 
+LDR ambient table     4228/65536       16912/262144   ( 6.5%) 
+HDR ambient table     4228/65536       16912/262144   ( 6.5%) 
+LDR leaf ambient     21660/65536      606480/1835008  (33.1%) 
+HDR leaf ambient      4228/65536      118384/1835008  ( 6.5%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14016    ( 0.0%) 
+pakfile               [variable]     5006511/0        ( 0.0%) 
+physics               [variable]     4235087/4194304  (101.0%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 31060
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+22 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading f:\gbt-main\hammer files\gbt_field_v4.vmf
+material "custom/v4cred" not found.
+Material not found!: CUSTOM/V4CRED
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/gbt_field_v4/gm_construct/grass_13_wvt_patch
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2056 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing f:\gbt-main\hammer files\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (4235102 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3213 texinfos to 1474
+Reduced 249 texdatas to 197 (10909 bytes to 8849)
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+5 seconds elapsed
+
+
+
+16 threads
+reading f:\gbt-main\hammer files\gbt_field_v4.bsp
+reading f:\gbt-main\hammer files\gbt_field_v4.prt
+ 830 portalclusters
+2268 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 30165 visible clusters (6.12%)
+Total clusters visible: 492905
+Average clusters visible: 593
+Building PAS...
+Average clusters audible: 752
+visdatasize:168511  compressed from 172640
+writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\gbt-main\hammer files\gbt_field_v4.bsp
+PREP OK
+11606 faces
+14 degenerate faces
+12797464 square feet [1842834816.00 square inches]
+58 Displacements
+261720 Square Feet [37687812.00 Square Inches]
+11592 patches before subdivision
+537852 patches after subdivision
+103 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 210246643, max 4865
+transfer lists: 1604.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2384763, 1886571, 1119901)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(535889, 337485, 159129)
+Build Patch/Sample Hash Table(s).....Done<0.1126 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 121/4096         5808/196608   ( 3.0%) 
+brushes               2444/16384       29328/196608   (14.9%) 
+brushsides           22141/163840     177128/1310720  (13.5%) 
+planes               17866/65536      357320/1310720  (27.3%) 
+vertexes             17319/65536      207828/786432   (26.4%) 
+nodes                 3061/65536       97952/2097152  ( 4.7%) 
+texinfos              1474/12288      106128/884736   (12.0%) 
+texdata                197/2048         6304/65536    ( 9.6%) 
+dispinfos               58/0           10208/0        ( 0.0%) 
+disp_verts           16762/0          335240/0        ( 0.0%) 
+disp_tris            29696/0           59392/0        ( 0.0%) 
+disp_lmsamples     1641275/0         1641275/0        ( 0.0%) 
+faces                11606/65536      649936/3670016  (17.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5572/65536      312032/3670016  ( 8.5%) 
+leaves                3183/65536      101856/2097152  ( 4.9%) 
+leaffaces            13750/65536       27500/131072   (21.0%) 
+leafbrushes           4656/65536        9312/131072   ( 7.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            76805/512000     307220/2048000  (15.0%) 
+edges                44611/256000     178444/1024000  (17.4%) 
+LDR worldlights        103/8192         9064/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips           1159/32768       11590/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19161/65536       38322/131072   (29.2%) 
+cubemapsamples          57/1024          912/16384    ( 5.6%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]    38611840/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      168511/16777216 ( 1.0%) 
+entdata               [variable]      115339/393216   (29.3%) 
+LDR ambient table     3183/65536       12732/262144   ( 4.9%) 
+HDR ambient table     3183/65536       12732/262144   ( 4.9%) 
+LDR leaf ambient     12990/65536      363720/1835008  (19.8%) 
+HDR leaf ambient      3183/65536       89124/1835008  ( 4.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14004    ( 0.0%) 
+pakfile               [variable]     5006511/0        ( 0.0%) 
+physics               [variable]     4235102/4194304  (101.0%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 31096
+Writing f:\gbt-main\hammer files\gbt_field_v4.bsp
+1 minute, 32 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading f:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gbt-main\hammer files\gbt_field_v4.vmf
+material "custom/v4cred" not found.
+Material not found!: CUSTOM/V4CRED
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/gbt_field_v4/gm_construct/grass_13_wvt_patch
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2056 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing f:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gbt-main\hammer files\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (4235054 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3213 texinfos to 1474
+Reduced 249 texdatas to 197 (10909 bytes to 8849)
+Writing f:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gbt-main\hammer files\gbt_field_v4.bsp
+4 seconds elapsed
+
+
+
+16 threads
+reading f:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gbt-main\hammer files\gbt_field_v4.bsp
+reading f:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gbt-main\hammer files\gbt_field_v4.prt
+ 825 portalclusters
+2255 numportals
+0...1...2...3...4...5...6...7...8...9...100
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gbt-main\hammer files\gbt_field_v4.bsp
+PREP OK
+No vis information, direct lighting only.
+11603 faces
+14 degenerate faces
+12797441 square feet [1842831488.00 square inches]
+58 Displacements
+261720 Square Feet [37687812.00 Square Inches]
+103 direct lights
+0
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading f:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gbt-main\hammer files\gbt_field_v4.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Patching WVT material: maps/gbt_field_v4/gm_construct/grass_13_wvt_patch
+Patching WVT material: maps/gbt_field_v4/dev/dev_blendmeasure_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2056 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing f:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gbt-main\hammer files\gbt_field_v4.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/militia_hdr*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+WARNING: Map using power 4 displacements, terrain physics cannot be compressed, map will need additional memory and CPU.
+done (1) (4235039 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 3213 texinfos to 1474
+Reduced 249 texdatas to 197 (10909 bytes to 8849)
+Writing f:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gbt-main\hammer files\gbt_field_v4.bsp
+4 seconds elapsed
+
+
+
+16 threads
+reading f:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gbt-main\hammer files\gbt_field_v4.bsp
+reading f:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gbt-main\hammer files\gbt_field_v4.prt
+ 825 portalclusters
+2255 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1400 visible clusters (0.39%)
+Total clusters visible: 354729
+Average clusters visible: 429
+Building PAS...
+Average clusters audible: 635
+visdatasize:147983  compressed from 171600
+writing f:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gbt-main\hammer files\gbt_field_v4.bsp
+2 minutes, 35 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gbt-main\hammer files\gbt_field_v4.bsp
+PREP OK
+11603 faces
+14 degenerate faces
+12797441 square feet [1842831488.00 square inches]
+58 Displacements
+261720 Square Feet [37687812.00 Square Inches]
+11589 patches before subdivision
+537823 patches after subdivision
+103 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 210222709, max 4865
+transfer lists: 1603.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(2376012, 1881808, 1116788)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(533055, 336600, 158498)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(117008, 46328, 19881)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(38017, 10197, 3725)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(13652, 2160, 705)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(5466, 536, 149)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(2351, 135, 32)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(1062, 36, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(502, 10, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(243, 3, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(121, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(61, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(32, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(16, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(8, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #16 added RGB(4, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #17 added RGB(2, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #18 added RGB(1, 0, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #19 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.1121 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 121/4096         5808/196608   ( 3.0%) 
+brushes               2444/16384       29328/196608   (14.9%) 
+brushsides           22141/163840     177128/1310720  (13.5%) 
+planes               17866/65536      357320/1310720  (27.3%) 
+vertexes             17311/65536      207732/786432   (26.4%) 
+nodes                 3058/65536       97856/2097152  ( 4.7%) 
+texinfos              1474/12288      106128/884736   (12.0%) 
+texdata                197/2048         6304/65536    ( 9.6%) 
+dispinfos               58/0           10208/0        ( 0.0%) 
+disp_verts           16762/0          335240/0        ( 0.0%) 
+disp_tris            29696/0           59392/0        ( 0.0%) 
+disp_lmsamples     1641275/0         1641275/0        ( 0.0%) 
+faces                11603/65536      649768/3670016  (17.7%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             5572/65536      312032/3670016  ( 8.5%) 
+leaves                3180/65536      101760/2097152  ( 4.9%) 
+leaffaces            13697/65536       27394/131072   (20.9%) 
+leafbrushes           4651/65536        9302/131072   ( 7.1%) 
+areas                    3/1024           24/8192     ( 0.3%) 
+surfedges            76790/512000     307160/2048000  (15.0%) 
+edges                44598/256000     178392/1024000  (17.4%) 
+LDR worldlights        103/8192         9064/720896   ( 1.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            8/32768          96/393216   ( 0.0%) 
+waterstrips           1159/32768       11590/327680   ( 3.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         19155/65536       38310/131072   (29.2%) 
+cubemapsamples          57/1024          912/16384    ( 5.6%) 
+overlays                 4/1024         1408/360448   ( 0.4%) 
+LDR lightdata         [variable]    38610944/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      147983/16777216 ( 0.9%) 
+entdata               [variable]      115339/393216   (29.3%) 
+LDR ambient table     3180/65536       12720/262144   ( 4.9%) 
+HDR ambient table     3180/65536       12720/262144   ( 4.9%) 
+LDR leaf ambient     12983/65536      363524/1835008  (19.8%) 
+HDR leaf ambient      3180/65536       89040/1835008  ( 4.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/14012    ( 0.0%) 
+pakfile               [variable]     5006511/0        ( 0.0%) 
+physics               [variable]     4235039/4194304  (101.0%) VERY FULL!
+physics terrain       [variable]           0/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 31087
+Writing f:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gbt-main\hammer files\gbt_field_v4.bsp
+1 minute, 24 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\steamlibrary\steamapps\common\garrysmod\garrysmod\addons\gbt-main\hammer files\gbt_field_v4.bsp
+PREP OK
+11603 faces
+14 degenerate faces
+12797441 square feet [1842831488.00 square inches]
+58 Displacements
+261720 Square Feet [37687812.00 Square Inches]
+11589 patches before subdivision
+537823 patches after subdivision
+103 direct lights
+0...1...2...3...4...5...6...7...8...9...100
