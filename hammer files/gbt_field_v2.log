@@ -1029,3 +1029,129 @@ physics               [variable]      176116/4194304  ( 4.2%)
 Total triangle count: 10261
 Writing c:\arquivos de programas\steam\steamapps\lucascesar\sourcesdk_content\hl2\mapsrc\gbt_field_v2.bsp
 1 minute, 55 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading f:\gbt-main\hammer files\gbt_field_v2.vmf
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing f:\gbt-main\hammer files\gbt_field_v2.prt...Building visibility clusters...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day02_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (176148 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 406 texinfos to 228
+Reduced 136 texdatas to 92 (6454 bytes to 4377)
+Writing f:\gbt-main\hammer files\gbt_field_v2.bsp
+1 second elapsed
+
+
+
+16 threads
+reading f:\gbt-main\hammer files\gbt_field_v2.bsp
+reading f:\gbt-main\hammer files\gbt_field_v2.prt
+ 894 portalclusters
+2292 numportals
+0...1...2...3...4...5...6...7...8...9...10Optimized: 29473 visible clusters (10.20%)
+Total clusters visible: 288975
+Average clusters visible: 323
+Building PAS...
+Average clusters audible: 687
+visdatasize:162583  compressed from 200256
+writing f:\gbt-main\hammer files\gbt_field_v2.bsp
+0 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading f:\gbt-main\hammer files\gbt_field_v2.bsp
+PREP OK
+3852 faces
+4602651 square feet [662781824.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3852 patches before subdivision
+101038 patches after subdivision
+24 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 8752040, max 697
+transfer lists:  66.8 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(348895, 280660, 158667)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(75561, 50020, 23944)
+Build Patch/Sample Hash Table(s).....Done<0.0212 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   4/4096          192/196608   ( 0.1%) 
+brushes               4154/16384       49848/196608   (25.4%) 
+brushsides           45970/163840     367760/1310720  (28.1%) 
+planes                1110/65536       22200/1310720  ( 1.7%) 
+vertexes              5394/65536       64728/786432   ( 8.2%) 
+nodes                 1879/65536       60128/2097152  ( 2.9%) 
+texinfos               228/12288       16416/884736   ( 1.9%) 
+texdata                 92/2048         2944/65536    ( 4.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 3852/65536      215712/3670016  ( 5.9%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces             1364/65536       76384/3670016  ( 2.1%) 
+leaves                1884/65536       60288/2097152  ( 2.9%) 
+leaffaces             4228/65536        8456/131072   ( 6.5%) 
+leafbrushes           1282/65536        2564/131072   ( 2.0%) 
+areas                    5/1024           40/8192     ( 0.5%) 
+surfedges            23415/512000      93660/2048000  ( 4.6%) 
+edges                13199/256000      52796/1024000  ( 5.2%) 
+LDR worldlights         24/8192         2112/720896   ( 0.3%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            3/32768          36/393216   ( 0.0%) 
+waterstrips            284/32768        2840/327680   ( 0.9%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          4383/65536        8766/131072   ( 6.7%) 
+cubemapsamples          25/1024          400/16384    ( 2.4%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]     6921372/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      162583/16777216 ( 1.0%) 
+entdata               [variable]       20251/393216   ( 5.2%) 
+LDR ambient table     1884/65536        7536/262144   ( 2.9%) 
+HDR ambient table     1884/65536        7536/262144   ( 2.9%) 
+LDR leaf ambient      8633/65536      241724/1835008  (13.2%) 
+HDR leaf ambient      1884/65536       52752/1835008  ( 2.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/616      ( 0.2%) 
+pakfile               [variable]     2781097/0        ( 0.0%) 
+physics               [variable]      176148/4194304  ( 4.2%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 10261
+Writing f:\gbt-main\hammer files\gbt_field_v2.bsp
+7 seconds elapsed
