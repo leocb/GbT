@@ -1,0 +1,9 @@
+{
+	"title"		:	"GbT Field v3",
+	"type"		:	"map",
+	"tags"		:	[ "build"],
+	"ignore"	:
+	[
+		"icon.jpg"
+	]
+}

@@ -1,0 +1,9 @@
+{
+	"title"		:	"GbT Freedom",
+	"type"		:	"map",
+	"tags"		:	["build"],
+	"ignore"	:
+	[
+		"icon.jpg"
+	]
+}

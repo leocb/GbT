@@ -1,0 +1,9 @@
+{
+	"title"		:	"GbT Map",
+	"type"		:	"map",
+	"tags"		:	["build"],
+	"ignore"	:
+	[
+		"icon.jpg"
+	]
+}

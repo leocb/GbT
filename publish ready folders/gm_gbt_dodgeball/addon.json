@@ -1,0 +1,9 @@
+{
+	"title"		:	"GbT Dodgeball",
+	"type"		:	"map",
+	"tags"		:	[ "fun" ],
+	"ignore"	:
+	[
+		"icon.jpg"
+	]
+}
